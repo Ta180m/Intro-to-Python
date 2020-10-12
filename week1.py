@@ -1,2 +1,1 @@
 import this
-qwerty
