@@ -1,5 +1,5 @@
-# Python-Resources
+# Introduction to Python
 
 [![Run on Repl.it](https://repl.it/badge/github/Ta180m/Python-Resources)](https://repl.it/github/Ta180m/Python-Resources)
 
-Under construction
+Learning the basics of Python by making a fun tic-tac-toe game
