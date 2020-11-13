@@ -44,6 +44,7 @@ Zero bugs and very clean code.
 It will be "Hello, world!"
 '''
 
+'''
 # Your first program
 # It prints Hello, world! in the console
 # The console is the black box on the right
@@ -74,6 +75,8 @@ print(2 + 2)
 
 # Prints a blank line
 print()
+'''
+
 
 '''
 ACTIVITY 1: Print something fun!
@@ -98,6 +101,7 @@ When you create a variable, you do 2 things
 '''
 
 
+'''
 # Let's make a variable named age_of_Bob. This value will represent the age of Bob :).
 
 age_of_Bob = 5
@@ -129,6 +133,7 @@ age_of_Sally = age_of_Bob * 2
 # We can give the variable age_of_Bob a new value
 # After all, it's just a memory "slot"
 age_of_Bob = 6
+'''
 
 
 '''
@@ -139,7 +144,7 @@ Then, print the value
 '''
 
 
-
+'''
 #  There are many types of variables
 # age_of_Bob and age_of_Sally are INTEGER type variables
 # There are also String, arrays, and other types of variables
@@ -147,7 +152,7 @@ Then, print the value
 your_name = "Bill Wender"
 # The variable TYPE is String
 
-your_name = Bill Wender # WRONG
+# your_name = Bill Wender # WRONG
 # When creating a String, make sure the value has quotations around it
 # Otherwise, the computer will think Bill and Wender are variables
 
@@ -173,6 +178,7 @@ print(30 + (12 - 6) * 2)
 print("30 + (12 - 6) * 2")
 # without the quotes, computer will assume the text is a variable
 print(your_name)
+'''
 
 
 '''
@@ -181,17 +187,19 @@ ACTIVITY 3: What is wrong with this code?
 Figure out what is wrong in the code below!
 '''
 
-name = "Bob" + 1
+'''
+# name = "Bob" + 1
 
 # Solution: the values must be the SAME TYPE.
 # "Bob" is a string, while 1 is an integer
 # It's like trying to add the number 7 to the word "tissue"
 
 name = "Bob"
-new_name = "Bob" + 1
+# new_name = "Bob" + 1
 
 # Here, name is a string, and 1 is an integer
 # So again, we cannot mix and match different types
+'''
 
 
 '''
@@ -201,6 +209,7 @@ Let's say we want to find out what the user's name is. We can do that by using i
 It's quite easy once we see an example
 '''
 
+'''
 # Let's get some info about the user
 print("What's your name?")
 
@@ -218,7 +227,7 @@ print("Your age is:")
 print(your_age)
 
 print("After your next birthday, you will be:")
-print(your_age + 1)
+# print(your_age + 1)
 
 # Whoa!
 # input() gets input as a string
@@ -254,6 +263,7 @@ print(name)
 name = first_name + " " + last_name
 print("This should be better:")
 print(name)
+'''
 
 
 '''
@@ -262,9 +272,11 @@ ACTIVITY 4: What's wrong with this code?
 Figure out what's wrong here!
 '''
 
+'''
 ans = 5
 # Print 2 + 2 = 5
 print("2 + 2 = " + ans)
+'''
 
 
 
@@ -283,12 +295,13 @@ REVIEW
 Let's go over what we learned today
 '''
 
+'''
 # Variables have a NAME, a VALUE, and a TYPE
 
 # You can't mix and match different types when doing addition
 sum = 2 + 2 # OK
 full_name = "Bill" + " " + "Wender" # OK
-bad = "2" + 2 # ERROR, "2" is a string while 2 is an integer
+# bad = "2" + 2 # ERROR, "2" is a string while 2 is an integer
 
 
 # Below will be a bunch of lines of code. This is for those who learn better visually.
@@ -301,24 +314,33 @@ print("hi")
 # print("my name is")
 # print(my_name)
 print("my name is: " + my_name)
+'''
 
 
 
 '''
-CHALLENGE 1: Mad Libs
+CHALLENGE 1: Cowsay
 
 Want to go the extra mile? Try this challenge:
 
+Read in a string from the user, in this case "Hello world!", and print out a cow saying it like this:
 
+Hello world!
+     \   ^__^
+      \  (oo)\_______
+         (__)\       )\/\
+             ||----w |
+             ||     ||
 '''
 
 
 
 '''
-CHALLENGE 2:
+CHALLENGE 2: Mad Libs
 
 Want to go the extra two miles? Try this challenge:
 
-
+Try making a mad-libs activity! First think of a topic, then ask the user to fill in the blanks in the sentences. Then, print out the completed paragraph. If you're having trouble, you can check previous examples or ask for help!
 '''
+
 
