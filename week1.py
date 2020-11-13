@@ -110,6 +110,9 @@ age_of_Bob = 5
 #      The variable's VALUE is 5
 #      The variable TYPE is Integer
 
+# Variables names are CASE-SENSITIVE
+# That means age, AGE, and Age are three different variables
+
 
 # Let's create a new variable named age_of_Sally. Sally is twice as old as Bob.
 # When you use a variable, Python substitutes the value of the variable in
