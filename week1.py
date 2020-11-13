@@ -98,25 +98,26 @@ When you create a variable, you do 2 things
 '''
 
 
-# Let's make a variable named "age_of_Bob." This value will represent the age of Bob :).
+# Let's make a variable named age_of_Bob. This value will represent the age of Bob :).
 
 age_of_Bob = 5
 # We're doing 2 things in 1 line
-# 1) We create a variable named "age_of_Bob"
+# 1) We create a variable named age_of_Bob
 # 2) We give the variable the value 5.
 
-# ATTRIBUTES of the variable "age_of_Bob"
-#      The variable NAME is "age_of_Bob"
+# ATTRIBUTES of the variable age_of_Bob
+#      The variable NAME is age_of_Bob
 #      The variable's VALUE is 5
 #      The variable TYPE is Integer
 
 
-# Let's create a new variable named "age_of_Sally." Sally is twice as old as Bob. 
+# Let's create a new variable named age_of_Sally. Sally is twice as old as Bob.
+# When you use a variable, Python substitutes the value of the variable in
 age_of_Sally = age_of_Bob * 2
 # We are doing 3 things above:
-# 1) We are creating a new variable named "age_of_Sally"
+# 1) We are creating a new variable named age_of_Sally
 # 2) We are calculating age_of_Bob * 2 (which is =10)
-# 3) We are assigning 10 to the variable "age_of_Sally"
+# 3) We are assigning 10 to the variable age_of_Sally
 # Thus, age_of_Sally now has a value of 10
 
 
@@ -130,7 +131,7 @@ age_of_Bob = 6
 '''
 ACTIVITY 2: Experimenting with variables
 
-Make a variable named "MyAge" and give it the value of your actual age
+Make a variable named "my_age" and give it the value of your actual age
 Then, print the value 
 '''
 
@@ -140,55 +141,61 @@ Then, print the value
 # age_of_Bob and age_of_Sally are INTEGER type variables
 # There are also String, arrays, and other types of variables
 
-name = "Bill Wender"
+your_name = "Bill Wender"
 # The variable TYPE is String
+
+your_name = Bill Wender # WRONG
 # When creating a String, make sure the value has quotations around it
-# Otherwise, the computer will think "Bill" and "Wender" are variable names
+# Otherwise, the computer will think Bill and Wender are variables
 
-# print the value of name.
-print("And his name is:")
-print(name)
+# print the value of your_name.
+print("And your name is:")
+print(your_name)
 
-# we can change the value of name
-name = "Bill Nye"
+# we can change the value of your_name
+your_name = "Bill Nye"
 
 # Now it's "Bill Nye"
-print("Now his name is:")
-print(name)
+print("Now your name is:")
+print(your_name)
 
 
 # How do you tell the different between INTEGER and STRING types?
 # Integers will be green
-# Strings will be orange with quotations
+# Strings will be red with quotes
 
 # the computer will compute the value
-print(30+(12-6)*2)
+print(30 + (12 - 6) * 2)
 # quotes indicate it is a String
-print("hello I am a string")
+print("30 + (12 - 6) * 2")
 # without the quotes, computer will assume the text is a variable
-print(name)
+print(your_name)
 
 
 '''
-ACTIVITY 3: What is wrong with myVariable?
+ACTIVITY 3: What is wrong with this code?
 
 Figure out what is wrong in the code below!
 '''
 
-name = "Bob"
-new_name = name + 1
+name = "Bob" + 1
 
-# Solution: the variables must be the SAME TYPE.
-# name is a string, while 1 is an integer
+# Solution: the values must be the SAME TYPE.
+# "Bob" is a string, while 1 is an integer
 # It's like trying to add the number 7 to the word "tissue"
 
+name = "Bob"
+new_name = "Bob" + 1
+
+# Here, name is a string, and 1 is an integer
+# So again, we cannot mix and match different types
 
 
 '''
 READING INPUT
 
 Let's say we want to find out what the user's name is. We can do that by using input()
-It's quite easy once we see an exampple
+It's quite easy once we see an example
 '''
 
 # Let's get some info about the user
@@ -233,6 +240,7 @@ last_name = "Wender"
 
 # When we "add" two strings, we mash them together to create a new string
 # this called "concatenating" if you want to use the fancy word
+# "Bill" + "Wender" = "BillWender"
 name = first_name + last_name
 
 print("His name is:")
@@ -252,6 +260,7 @@ Figure out what's wrong here!
 '''
 
 ans = 5
+# Print 2 + 2 = 5
 print("2 + 2 = " + ans)
 
 
@@ -271,18 +280,18 @@ REVIEW
 Let's go over what we learned today
 '''
 
-# Variables have a NAME, a TYPE, and a VALUE
+# Variables have a NAME, a VALUE, and a TYPE
 
 # You can't mix and match different types when doing addition
 sum = 2 + 2 # OK
 full_name = "Bill" + " " + "Wender" # OK
-bad = "Bill" + 2 # ERROR
+bad = "2" + 2 # ERROR, "2" is a string while 2 is an integer
 
 
 # Below will be a bunch of lines of code. This is for those who learn better visually.
 
 my_age = 5
-my_name = "Theo"
+my_name = "Billiam"
 my_new_age = my_age + 1
 print("hi")
 
@@ -305,7 +314,7 @@ Want to go the extra mile? Try this challenge:
 '''
 CHALLENGE 2:
 
-Want to go the extra mile? Try this challenge:
+Want to go the extra two miles? Try this challenge:
 
 
 '''
