@@ -45,7 +45,7 @@ It will be "Hello, world!"
 '''
 
 # Your first program
-# It prints "Hello, world!" in the console
+# It prints Hello, world! in the console
 # The console is the black box on the right
 # Press "Run" at the top to see it in action!
 print("Hello, world!")
@@ -131,7 +131,7 @@ age_of_Bob = 6
 '''
 ACTIVITY 2: Experimenting with variables
 
-Make a variable named "my_age" and give it the value of your actual age
+Make a variable named my_age and give it the value of your actual age
 Then, print the value 
 '''
 
