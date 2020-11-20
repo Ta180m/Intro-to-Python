@@ -35,6 +35,7 @@ temperature = 20
 
 if temperature < 32:
 	# it's really cold outside, what should I wear?
+	print("It's really cold, you should wear a: ")
 
 
 # Here, temperature < 32 is a condition
@@ -54,15 +55,16 @@ temperature = 50
 if temperature >= 32:
    cold_outside = False
 
+
 # We can also add an else statement
 # If cold_outside is True, it runs the code under if
 # If cold_outside is False, it runs the code under else
 if cold_outside:
 	# It's freezing outside!
-	pass
+	print("It's freezing outside, you should wear a: ")
 else:
 	# It's not that bad
-	pass
+	print("It's not that bad, you should wear a: ")
 '''
 
 
@@ -72,12 +74,15 @@ ACTIVITY 1: It's hot outside!
 Add another case for when the temperature is above 80 degrees.
 '''
 
+'''
 temperature = 90
 
 if temperature < 32:
 	# It's freezing outside!
-	pass
+	print("It's freezing! You should wear a: ")
 # Add a case when the temperature is greater than 80
+
+'''
 
 
 '''
@@ -195,24 +200,49 @@ ACTIVITY 8: Infinite loop
 What happens when the following code runs? How can we fix it?
 '''
 
+'''
 num_rabbits = 2
 years = 0
 while num_rabbits > 0:
 	num_rabbits = 2 * num_rabbits
 	years = years + 1
 print(years)
-
+'''
 
 
 '''
 REVIEW
 '''
 
+
+'''
 # Today, we learned two important building blocks for making more sophisticated programs: CONDITIONALS and REPETITION
+
 
 # We use if/elif/else so the computer can make decisions
 
+language = "python"
+if language == "python":
+	print("Python is awesome!")
+elif language == "java":
+	print("Java is OK")
+else:
+	print(language + "is meh")
+
+
 # We use for loops and while loops for repetition
+
+# prints 0*0, 1*1, 2*2, ... 9*9
+for i in range(0, 10)
+	print(i * i)
+
+# prints 0*0, 1*1, 2*2, ... 9*9 as well
+i = 0
+while i * i < 100:
+	print(i * i)
+	i = i + 1
+'''
+
 
 
 '''
