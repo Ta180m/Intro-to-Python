@@ -35,12 +35,12 @@ temperature = 20
 
 if temperature < 32:
 	# it's really cold outside, what should I wear?
+	# this code runs when the temperature is less than 32
 	print("It's really cold, you should wear a: ")
-
 
 # Here, temperature < 32 is a condition
 # It can either be True or False
-#   If it is True, it will run the code below it
+#   If it is True, it will run the indented code below it
 #   If it is False, it will NOT run the code and skip ahead
 
 cold_outside = temperature < 32
@@ -53,8 +53,8 @@ cold_outside = temperature < 32
 # Let's say the temperature rises
 temperature = 50
 if temperature >= 32:
-   cold_outside = False
-
+	# now the temperature is greater or equal to 32, so it is no longer cold outside
+	cold_outside = False
 
 # We can also add an else statement
 # If cold_outside is True, it runs the code under if
@@ -137,14 +137,27 @@ for i in range(1, 11):
 	print(i)
 
 # What does this do?
-# It will repeat for every i in the range 1 to 11
-# We need to use 11 because 11 is NOT included
-# So it will repeat for i = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+# Imagine it is a repeat button. It will repeat the code a certain amount of times.
+# A for loop in the range(1, x) will repeat the enclosed code x times
+
+# It will repeat for every i in the range 1 (INCLUSIVE) to 11 (EXCLUSIVE)
+# This means that it will repeat for every number from 1 to 10
+# In general, a for loop on a range(x, y) will repeat for every
+# number x, x + 1, ..., y - 2, y - 1
+# Note that y is NOT included
 '''
 
 
 '''
-ACTIVITY 4: Reversed!
+ACTIVITY 4: Spammer
+
+Print "python is awesome" 100 times!
+'''
+
+
+
+'''
+ACTIVITY 5: Reversed!
 
 Print the numbers from 1 to 10 in reverse order!
 
@@ -154,10 +167,11 @@ Hint: Instead of print(i), what else could we do?
 
 
 '''
-ACTIVITY 5: Sum
+ACTIVITY 6: Sum
 
-Ask the user for a number n, and print the sum of the first n positive integers, basically, print 1+2+3+...+n
+Ask the user for a number n, and print the sum of the first n positive integers, basically, print the sum 1+2+3+...+n.
 '''
+
 
 
 '''
@@ -165,21 +179,23 @@ Ask the user for a number n, and print the sum of the first n positive integers,
 # Maybe we just want to repeat until a certain condition is satisfied
 # We can use a WHILE loop
 
-# maybe a better example, where the number of repetitions is not know?
 
-day_of_week = 1 #monday is day 1
-weekend = 6 #saturday is day 6
+your_age = int(input())
+while your_age < 16:
+	print("You are only " + str(your_age) + ". You can't drive yet!")
+	your_age = your_age + 1
 
-while (day_of_week < weekend):
-  print("It is day " + day_of_week + ". Thus, it is not weekend yet")
+print("You are " + str(your_age) + ". You can drive now!")
 
-print("It is day " + day_of_week + ". Thus, it IS the weekend")
+# What type is your_age?
+# What type is your_age < 16?
+# Why do we have to do str(your_age) when printing?
+# Always remember types!
 '''
 
 
-
 '''
-ACTIVITY 6: Exponential growth
+ACTIVITY 7: Exponential growth
 
 A rabbit population starts out with 2 rabbits. Each year, the population size doubles. Find the number of years before the population reaches 1000 using a while loop!
 '''
@@ -187,7 +203,7 @@ A rabbit population starts out with 2 rabbits. Each year, the population size do
 
 
 '''
-ACTIVITY 7: Password 2.0
+ACTIVITY 8: Password 2.0
 
 Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right.
 '''
@@ -195,7 +211,7 @@ Let's say the user's password is "ilovepython". Ask them to enter their password
 
 
 '''
-ACTIVITY 8: Infinite loop
+ACTIVITY 9: Infinite loop
 
 What happens when the following code runs? How can we fix it?
 '''
@@ -227,7 +243,7 @@ if language == "python":
 elif language == "java":
 	print("Java is OK")
 else:
-	print(language + "is meh")
+	print(language + " is meh")
 
 
 # We use for loops and while loops for repetition
@@ -241,6 +257,9 @@ i = 0
 while i * i < 100:
 	print(i * i)
 	i = i + 1
+
+# We typically use for loops when we know the number of repetitions in advance
+# And while loops when we aren't sure how many times we need to repeat
 '''
 
 
@@ -258,7 +277,7 @@ CHALLENGE 2: Inverse sum
 
 Ask the user for a number S, and find the smallest n, so that 1+2+3+...+n is greater or equal to S.
 
-Can you do it with a for loop? A while loop? With some math?
+Can you do it with a while loop? A for loop? With some math?
 '''
 
 
