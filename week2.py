@@ -187,6 +187,9 @@ while your_age < 16:
 
 print("You are " + str(your_age) + ". You can drive now!")
 
+# We used a while loop here we don't know how many times we have to repeat
+# The user could be 2 or 12 or 102
+
 # What type is your_age?
 # What type is your_age < 16?
 # Why do we have to do str(your_age) when printing?
