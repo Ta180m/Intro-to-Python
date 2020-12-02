@@ -13,7 +13,7 @@ WEEK 2
  - Repetition: for, while
 
 Don't worry if your group is a little bit behind. You'll get to the fun tic-tac-toe game next week!
-''' 
+'''
 
 
 
