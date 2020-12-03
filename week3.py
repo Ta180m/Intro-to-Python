@@ -18,7 +18,9 @@ FOR STUDENTS:
 Make sure you have an Repl.it account!
 Click "Introduction-to-Python" at the top, then click the button "Fork"
 This will create your own copy of the project.
-Watch the team leader's shared screen during the examples, and work on your own copy for the activities!
+After you have your own copy, click "Share" in the top right and send the link to your group leader.
+
+Watch the group leader's shared screen during the examples, and work on your own copy for the activities!
 '''
 
 
@@ -27,47 +29,116 @@ DATA TYPES
 
 We've seen a few types so far:
  
- - int: whole numbers
+ - Integers: whole numbers
+	You can convert variables to integers using int( )
 	Examples: 1, 0, -14, 237568178935
 
- - str: strings of text in quotes
+ - Float: fancy word for decimals, numbers with decimal points
+	You can convert variables to floats using float( )
+	Examples: 1.414, 3.14, 2.5, -1729.42
+
+ - Strings: text in quotes
+ 	You can convert variables to strings using str( )
 	Examples: "bill nye", "1", "2 + 2 = 5", ""
 
- - bool: variables that can only take on the value of True or False
+ - Boolean: variables that can only take on the value of True or False
+	You can convert variables to booleans using bool( )
 	Examples: True, False (the only possible examples)
 
-
 However, there are much, much more types out there.
+'''
 
-Let's look at another very useful type: Lists
+'''
+# Let's look at another very useful type: Lists
 
-Lists (list) are multiple values stored in a list
-List items can be of any data type
-We use brackets [] to represent lists
-Examples: [1, 2.3, 5], ["red"], []
+# Lists are lists.
+# They store several items as a list.
+# The items can be of any data type.
+
+# Here is an example of a list:
+
+my_list = [1, "hello", True, 3.14]
+
+# The square brackets [] tell you that this is a list.
+# It contains the elements:
+# 1, an integer
+# "hello", a string
+# True, a boolean
+# 3.14, a float (decimal)
+# Additionally, we set the value of the variable my_list equal to this list
 
 '''
 
 '''
-MORE ON LISTS
+ACTIVITY 1: What's wrong?
 
-How do we define a list?
+What's wrong with my_list?
 
-Like any variable, the name goes on the left and the contents go on the right.
+my_list = [2 + 2, "red", true]
 '''
 
-example_list = [1, 3, 2, 5]
+
 
 '''
-OPERATIONS ON A LIST
+ACTIVITY 2: Create your own!
 
-ADDITION
+Create your own list! It should be in the format [name, age, favorite animal]
 
-DELETION
+After you create the list, print it!
+'''
 
-PRINTING
 
 '''
+# What can we do with lists?
+
+# We can get the item at a certain position of the list!
+
+# Let's say we have the following list:
+shopping_list = ["evaporated milk", "avocados", "pineapples"]
+print(shopping_list)
+
+# To get the first element of the list, we use: shopping_list[0]
+# [0] is not a mistake!
+# In Python, the first element corresponds to INDEX 0
+print("First element (index 0) is " + shopping_list[0])
+
+# Or the second element: shopping_list[1]
+# Second element corresponds to index 1
+print("First element (index 1) is " + shopping_list[1])
+
+# We can then modify the element
+# Change "avocados" to "fruit roll-ups"
+shopping_list[1] = "fruit roll-ups"
+print(shopping_list)
+print("First element (index 1) is " + shopping_list[1])
+
+# We can also add an element to the end using append()
+shopping_list.append("pomegranate")
+print(shopping_list)
+
+# Or at any position using insert()
+# Inserts "doritos" before the SECOND item (index 1)
+shopping_list.insert(1, "doritos")
+print(shopping_list)
+
+# We can also delete an item using remove()
+shopping_list.remove("pineapples")
+print(shopping_list)
+'''
+
+
+'''
+ACTIVITY 3: One at a time!
+
+Ask the user for their name, age, and favorite animal. Add their answers to a list, and print it out!
+'''
+
+
+'''
+ACTIVITY 4: 
+
+'''
+
 
 '''
 CASTING
@@ -91,26 +162,7 @@ What if we tried: int("hello"), int("5.5")
 '''
 
 
-'''
-ACTIVITY 1: What's wrong?
 
-What's wrong with this list?
-
-this_list = [1, "red", true]
-
-(there's nothing wrong)
-'''
-
-'''
-ACTIVITY 2: Create own!
-
-Create your own list!
-
-It should be in the format [name, age, ?]
-
-After you create the list, print it!
-
-'''
 
 
 
@@ -158,17 +210,28 @@ result = addNumbers(FirstNumber, SecondNumber)
 
 '''
 
+
 '''
-ACTIVITY 5: Add 3!
+ACTIVITY 5: Add 3
 
 Create a function that takes in 3 integers and returns their sum!
 '''
 
 '''
 ACTIVITY 6: Find the difference!
-#Please copy part 1 into a new file, then delete and copy part 2
 
-1)
+They look similar, but why do they produce different output?
+'''
+
+# 1)
+def addToCount():
+  count = count + 1
+  print("count is now = " + count)
+
+for i in range(5):
+  addToCount()
+
+# 2)
 count = 5
 
 def addToCount():
@@ -178,14 +241,25 @@ def addToCount():
 for i in range(5):
   addToCount()
 
-2)
-def addToCount():
-  count = count + 1
-  print("count is now = " + count)
 
-for i in range(5):
-  addToCount()
+
+'''
+REVIEW
+
+
 '''
 
 
-# Potential Activity: Mimic a calculator (with operations as functions, ask user for input numbers)
+'''
+CHALLENGE 1: Todo
+
+Simulate a todo list!
+
+'''
+
+
+'''
+CHALLENGE 2: 4-"function" calculator
+
+Mimic a calculator, with operations as functions!
+'''
