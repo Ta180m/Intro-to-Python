@@ -12,7 +12,13 @@ WEEK 3
 
  - Functions
 
-Have students make their own files (don't copy this file)
+
+FOR STUDENTS:
+
+Make sure you have an Repl.it account!
+Click "Introduction-to-Python" at the top, then click the button "Fork"
+This will create your own copy of the project.
+Watch the team leader's shared screen during the examples, and work on your own copy for the activities!
 '''
 
 
@@ -32,6 +38,7 @@ We've seen a few types so far:
 
 
 However, there are much, much more types out there.
+
 Let's look at another very useful type: Lists
 
 Lists (list) are multiple values stored in a list
