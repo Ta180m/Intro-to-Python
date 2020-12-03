@@ -31,7 +31,7 @@ We've seen a few types so far:
  
  - Integers: whole numbers
 	You can convert variables to integers using int( )
-	Examples: 1, 0, -14, 237568178935
+	Examples: 1, 0, -14, 987654321
 
  - Float: fancy word for decimals, numbers with decimal points
 	You can convert variables to floats using float( )
@@ -141,6 +141,8 @@ ACTIVITY 4:
 
 
 '''
+Is this necessary?
+
 CASTING
 
 Casting is used to convert values from one data type to another
@@ -164,9 +166,6 @@ What if we tried: int("hello"), int("5.5")
 
 
 
-
-
-
 ''''
 FUNCTIONS
 
@@ -179,8 +178,8 @@ Scenario: We want to add 2 numbers and print their sum.
 # Instructors, type this into a new file.
 
 def addNumbers(number1, number2):
-  number3 = number1 + number2
-  return number3
+	number3 = number1 + number2
+	return number3
 
 # What does the function mean?
 "def" tells us that the line is a function
@@ -218,15 +217,18 @@ Create a function that takes in 3 integers and returns their sum!
 '''
 
 '''
+Need to fix!
+
 ACTIVITY 6: Find the difference!
 
 They look similar, but why do they produce different output?
 '''
 
+'''
 # 1)
 def addToCount():
-  count = count + 1
-  print("count is now = " + count)
+	count = count + 1
+	print("count is now = " + count)
 
 for i in range(5):
   addToCount()
@@ -235,12 +237,17 @@ for i in range(5):
 count = 5
 
 def addToCount():
-  count = count + 1
-  print("count is now = " + count)
+	count = count + 1
+	print("count is now = " + count)
 
 for i in range(5):
-  addToCount()
+	addToCount()
+'''
 
+'''
+ACTIVITY 7: 
+
+'''
 
 
 '''
