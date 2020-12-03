@@ -15,12 +15,16 @@ WEEK 3
 
 FOR STUDENTS:
 
-Make sure you have an Repl.it account!
-Click "Introduction-to-Python" at the top, then click the button "Fork"
-This will create your own copy of the project.
-After you have your own copy, click "Share" in the top right and send the link to your group leader.
+ - Make sure you have an Repl.it account!
 
-Watch the group leader's shared screen during the examples, and work on your own copy for the activities!
+ - Click "Introduction-to-Python" at the top, then click the button "Fork"
+ 
+ - This will create your own copy of the project.
+ 
+ - After you have your own copy, click "Share" in the top right and send the link to your group leader.
+
+ - Watch the group leader's shared screen during the examples, and work on your own copy for the activities!
+
 '''
 
 
