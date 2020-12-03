@@ -38,6 +38,7 @@ We've seen a few types so far:
 	Examples: 1, 0, -14, 987654321
 
  - Float: fancy word for decimals, numbers with decimal points
+	We haven't really seen floats before, but they behave similarly to integers
 	You can convert variables to floats using float( )
 	Examples: 1.414, 3.14, 2.5, -1729.42
 
@@ -49,19 +50,33 @@ We've seen a few types so far:
 	You can convert variables to booleans using bool( )
 	Examples: True, False (the only possible examples)
 
-However, there are much, much more types out there.
+It's important to remember that you cannot mix and match types when doing stuff like addition.
+
+For example, you can't do:
+42 + "hello"	# Wrong!
+2 + "2"			# Wrong!
+
+We can convert "2" to an integer and then add:
+2 + int("2")	# 4
+
+However, there is ONE exception.
+Python will automatically convert integers to floats when doing operations involving one integer and float.
+So the following is valid:
+2 + 3.14	# 5.14
+
+These are only four types out of the many types in Python.
+Let's look at another very useful type: Lists
 '''
 
 '''
-# Let's look at another very useful type: Lists
-
 # Lists are lists.
 # They store several items as a list.
-# The items can be of any data type.
+# Lists are ORDERED
+# The items can be of any data type, even other lists.
 
 # Here is an example of a list:
 
-my_list = [1, "hello", True, 3.14]
+my_list = [1, "hello", True, 3.14, []]
 
 # The square brackets [] tell you that this is a list.
 # It contains the elements:
@@ -69,6 +84,7 @@ my_list = [1, "hello", True, 3.14]
 # "hello", a string
 # True, a boolean
 # 3.14, a float (decimal)
+# [], an empty list
 # Additionally, we set the value of the variable my_list equal to this list
 
 '''
@@ -139,34 +155,12 @@ Ask the user for their name, age, and favorite animal. Add their answers to a li
 
 
 '''
-ACTIVITY 4: 
+ACTIVITY 4: Last!
 
+Print the last element of the list you created in ACTIVITY 3.
+
+How can you find the last element of any list?
 '''
-
-
-'''
-Is this necessary?
-
-CASTING
-
-Casting is used to convert values from one data type to another
-
-int("5"), int(" 5  "), int(5.55), and int(5) all evaluate to 5
-int(-1.6) evaluates to -1
-
-float("3"), float(3), and float(3.0) all evaluate to 3.0
-
-str(4) evaluates to "4"
-str(4.2) evaluates to "4.2"
-str("123") evaluates to "123"
-str([1, 3.0]) evalutes to "[1, 3.0]"
-
-bool(13), bool(-1.3), bool("sb2"), bool("False"), bool([1, 2]) all evaluate to True
-bool(0), bool(0.0), bool(""), and bool([]) all evaluate to False
-
-What if we tried: int("hello"), int("5.5")
-'''
-
 
 
 
@@ -249,8 +243,9 @@ for i in range(5):
 '''
 
 '''
-ACTIVITY 7: 
+ACTIVITY 7: Spammer 2
 
+Make a function that prints "I love Python!" with no inputs or returns, and call it 100 times!
 '''
 
 
