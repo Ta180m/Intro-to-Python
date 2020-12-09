@@ -223,6 +223,39 @@ Hint 2: What must the remainder be if another number is a factor of the input nu
 ''''
 FUNCTIONS
 
+Functions combine multiple instructions into one line
+Scenario: We want to print 'Hello' and 'World' between prints
+
+print("Hello")
+print("World")
+print("abc")
+print("Hello")
+print("World")
+print("123")
+print("Hello")
+print("World")
+
+Instead of writing 
+  print("Hello")
+  print("World")
+three times, you could use a function
+
+def hello():
+  print("Hello")
+  print("World")
+
+hello()
+print("abc")
+hello()
+print("123")
+hello()
+
+Some functions take in inputs and give back an output
+Scenario: We want to print 'Hello NAME' for multiple names
+print("Hello Alice")
+print("Hello Bob")
+print("Hello Bob")
+
 Think of functions as a mysterious machine that eats "input" and spits out "output".
 (Also, it has "invisible" inputs and outputs. Invisible inputs = pre-existing variables, invisible outputs = the changes made to those variables)
 
