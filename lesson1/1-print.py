@@ -34,37 +34,53 @@ It will be "Hello, world!"
 # Press "Run" at the top to see it in action!
 print("Hello, world!")
 
+# If you type python in the console, it will start up an interactive Python session
+# You know you are in a PYTHON console when it shows the >>>
+# Instead of the orange thing
+# You can then type in code and Python will run it as you go
+
 # Print some more text
+# To print text, it MUST BE IN QUOTES
 print("Python is fun!")
-print("this is a string")
-# A string is some text enclosed in quotes
+print("I love Python!")
+
+
+'''
+Let's do Activity 1 now!
+Click on act1.py in the left sidebar to open Activity 1.
+'''
+
 
 # note that the 4 doesn't have quotes
-# it is an integer
+# it is an integer AKA a whole number
 print(4)
 
+# When we print a math expression, Python evaluates it
+# Note that this does not print text because there are no quotes!
 # Prints 4
 print(2 + 2)
 
 # Prints the LITERAL TEXT 2 + 2
 print("2 + 2")
 
-# Notice that strings and integers are two different things!
-# They are different TYPES
-
 # Each print puts the result on a new line
 print("2 + 2 = ")
 print(2 + 2)
 
+# Python will evaluate complicated math expressions
+print(9+10*(7*5-3))
+
 # Prints a blank line
 print()
 
+# When you type something in the console, Python will automatically print it out
+# For example, if we type in the console:
+2 + 2
+# Prints 4 automatically, but ONLY in the console
+# If you click RUN, Python will not print stuff out unless you use print( )
 
 
 '''
-ACTIVITY 1: Print something fun!
-Each member of the group should print their name, their age, and their favorite food.
+Now let's look at Activity 2
 '''
-
-
 

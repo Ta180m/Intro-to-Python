@@ -6,7 +6,7 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 4: Print Me (Printing, variables)
+ACTIVITY 11: Print Me (Printing, variables)
 
 Billiam created two variables, my_name and my_age. Sure, you can print my_name and my_age using two separate print statements.
 

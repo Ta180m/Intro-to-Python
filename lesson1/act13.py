@@ -6,7 +6,7 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 6: Fix the Code! (Printing, variables)
+ACTIVITY 13: Fix the Code! (Printing, variables)
 
 One of your group members wrote the code below, but it doesn't work for some reason. Can you find out why?
 

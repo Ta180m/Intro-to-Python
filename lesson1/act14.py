@@ -6,7 +6,7 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 9: Conversational (Printing, variables, input)
+ACTIVITY 14: Conversational (Printing, variables, input)
 
 Have a nice conversation using input() and print()
 Ex:

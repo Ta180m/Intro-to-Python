@@ -6,14 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 5: Multiplication Overload! (Printing, variables)
+ACTIVITY 7: Question Question (Printing, input)
 
-Too much multiplication! Multiply the 5 integer variables together, then print the output!
+This is a question about asking a question. Ask the user how old they are and get their input using input(). Then print a response: your own age.
 '''
 
-int1 = 42
-int2 = 1729
-int3 = -1
-int4 = 998242353
-int5 = 13
 

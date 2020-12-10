@@ -8,56 +8,40 @@ INTRODUCTION TO
                                       
 REVIEW
 
-Let's go over what we learned today
+Let's go over what we learned in this lesson!
 '''
 
 
 # Variables have a NAME, a VALUE, and a TYPE
+# The type of a variable is VERY IMPORTANT
+# Always keep track of what the type of your variables
+
 
 # You can't mix and match different types when doing addition
+
+# Addition will actually add two integer
 sum = 2 + 2 # OK
+
+# Addition will mash together (concatenate) two strings
 full_name = "Bill" + " " + "Wender" # OK
-# bad = "2" + 2 # ERROR, "2" is a string while 2 is an integer
+
+# Addition doesn't work when the types are different!
+bad = "2" + 2 # ERROR, "2" is a string while 2 is an integer
 
 
-# Below will be a bunch of lines of code. This is for those who learn better visually.
+# We can get input using input()
+print("What's your grade?")
 
-my_age = 5
-my_name = "Billiam"
-my_new_age = my_age + 1
-print("hi")
+your_grade = input() # saves input to the variable your_grade
+# Now your_grade contains whatever the user typed in
 
-# print("my name is")
-# print(my_name)
-print("my name is: " + my_name)
+# Mash together "Your grade is " and the variable your_grade
+print("Your grade is " + your_grade)
 
-
-
-
-'''
-CHALLENGE 1: Cowsay
-
-Want to go the extra mile? Try this challenge:
-
-Read in a string from the user, in this case "Hello world!", and print out a cow saying it like this:
-
-Hello world!
-     \   ^__^
-      \  (oo)\_______
-         (__)\       )\/\
-             ||----w |
-             ||     ||
-'''
+# input() always gives us a string
+# So your_grade is a string
+# We have to CONVERT your_grade to an integer before we can add 1
+# Then we need to convert it back into a string to mash it with "Next year ... "
+print("Next year you will be in grade " + str(int(your_grade) + 1))
 
 
-
-'''
-CHALLENGE 2: Mad Libs
-
-Want to go the extra two miles? Try this challenge:
-
-Try making a mad-libs activity! First think of a topic, then ask the user to fill in the blanks in the sentences. Then, print out the completed paragraph. If you're having trouble, you can check previous examples or ask for help!
-'''
-
-
- 

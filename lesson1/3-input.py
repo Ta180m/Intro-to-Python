@@ -17,6 +17,8 @@ It's quite easy once we see an example
 print("What's your name?")
 
 your_name = input() # type your name into the console
+# input() will get INPUT from the user
+# then we save that input in your_name
 
 print("Your name is:")
 print(your_name)
@@ -29,12 +31,19 @@ your_age = input()
 print("Your age is:")
 print(your_age)
 
+
+'''
+Try it out yourself!
+Let's do Activity 7!
+'''
+
+
 print("After your next birthday, you will be:")
-# print(your_age + 1)
+print(your_age + 1)
 
 # Whoa!
-# input() gets input as a string
-# So, your_age is a string
+# input() gets input AS A STRING
+# So, your_age is a STRING
 # And you can't add 1 to a string, as we saw earlier!
 
 # So, what do we do?
@@ -48,6 +57,11 @@ print(int(your_age))
 # Now it works!
 print("After your next birthday, you will be:")
 print(int(your_age) + 1)
+
+
+'''
+Let's do Activity 8!
+'''
 
 
 first_name = "Bill"
@@ -68,27 +82,7 @@ print("This should be better:")
 print(name)
 
 
-
 '''
-ACTIVITY 4: What's wrong with this code?
-
-Figure out what's wrong here!
+Let's do Activity 9, 10, 11, and 12 now!
 '''
-
-'''
-ans = 5
-# Print 2 + 2 = 5
-print("2 + 2 = " + ans)
-'''
-
-
-
-'''
-ACTIVITY 5: Converting between strings and integers
-
-Ask for the user's age, then ask them what age they think they will finish school
-Print the number of years of school left for them!
-'''
-
-
 

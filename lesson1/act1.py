@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 7: Question Question (Printing, input)
+ACTIVITY 1: Print something fun! (Printing)
 
-This is a question about asking a question. Ask the user how old they are and get their input using input(). Then print a response: your own age.
+Each member of the group should print their name, their age, and their favorite food.
 '''
 
 

@@ -6,9 +6,10 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-EXERCISE 8: Triple Sum (Printing, variables, input)
+ACTIVITY 3: Experimenting with variables (Printing, variables)
 
-Billiam can find the sum of two numbers, but he can't do the quick maths needed to find the sum of three numbers. Ask the user for three integers, one at a time, then print their sum.
+Make a variable named my_grade and give it the value of your grade.
+Then, print its value.
 '''
 
 

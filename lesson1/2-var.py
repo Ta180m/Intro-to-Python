@@ -32,6 +32,11 @@ age_of_Bob = 5
 #      The variable NAME is age_of_Bob
 #      The variable's VALUE is 5
 #      The variable TYPE is Integer
+# The TYPE of the variable is VERY IMPORTANT
+# Always make sure you know the type of your variables
+# If you're not sure, you can get the type like this:
+type(age_of_Bob)
+
 
 # Variables names are CASE-SENSITIVE
 # That means age, AGE, and Age are three different variables
@@ -54,28 +59,30 @@ age_of_Sally = age_of_Bob * 2
 age_of_Bob = 6
 
 
-
 '''
-ACTIVITY 2: Experimenting with variables
-
-Make a variable named my_age and give it the value of your actual age
-Then, print the value 
+Let's do Activity 3 and 4 now!
 '''
 
 
+# There are many differnet types of variables
+# age_of_Bob and age_of_Sally are INTEGER type variables since they are storing whole numbers
+# Let's look at another type:
 
-#  There are many types of variables
-# age_of_Bob and age_of_Sally are INTEGER type variables
-# There are also String, arrays, and other types of variables
+# Recall we can print text with quotes
+print("Bill Wender")
+# What we are really doing is making a STRING and printing the string out
+# A STRING IS TEXT IN QUOTES
 
+# We can also make a string and assign it to a variable
 your_name = "Bill Wender"
-# The variable TYPE is String
+# Now your_name has TYPE of STRING
+# And contains the value "Bill Wender"
 
 # your_name = Bill Wender # WRONG
-# When creating a String, make sure the value has quotations around it
-# Otherwise, the computer will think Bill and Wender are variables
+# When creating a string, make sure the value has quotes around it
+# Otherwise, Python will think Bill and Wender are variables
 
-# print the value of your_name.
+# print the value of your_name
 print("And your name is:")
 print(your_name)
 
@@ -90,6 +97,7 @@ print(your_name)
 # How do you tell the different between INTEGER and STRING types?
 # Integers will be green
 # Strings will be red with quotes
+# You can also use type( ) to get the type of a variable
 
 # the computer will compute the value
 print(30 + (12 - 6) * 2)
@@ -100,22 +108,6 @@ print(your_name)
 
 
 '''
-ACTIVITY 3: What is wrong with this code?
-
-Figure out what is wrong in the code below!
-'''
-
-'''
-# name = "Bob" + 1
-
-# Solution: the values must be the SAME TYPE.
-# "Bob" is a string, while 1 is an integer
-# It's like trying to add the number 7 to the word "tissue"
-
-name = "Bob"
-# new_name = "Bob" + 1
-
-# Here, name is a string, and 1 is an integer
-# So again, we cannot mix and match different types
+Now let's work on Activity 5 and 6!
 '''
 
