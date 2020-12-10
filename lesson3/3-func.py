@@ -80,7 +80,8 @@ result = addNumbers(first_number, second_number)
 
 ***number1 and number2 are the NAMES of the input. They become variables to use inside the function, but don't affect the value of first_number or second_number***
 
+
 '''
-Let's do Activities 10 and 11 now!
+Let's do Activities 10, 11, and 12 now!
 '''
 

@@ -12,7 +12,7 @@ Every variable has a TYPE. The type of a variable tells you what kind of value i
 '''
 
 # We've seen a few types so far:
- 
+
 # INTEGERS: whole numbers
 # You can convert variables to integers using int( )
 int1 = 1
