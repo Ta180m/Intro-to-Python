@@ -6,3 +6,10 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
+ACTIVITY 1: Super Conversions! (Types)
+
+
+'''
+
+
+

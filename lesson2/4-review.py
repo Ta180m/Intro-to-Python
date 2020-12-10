@@ -43,6 +43,7 @@ while i * i < 100:
 
 '''
 Activities 11 and 12 are review.
+
 You can also try Challenges 1 and 2 if you want the extra challenge!
 '''
 
