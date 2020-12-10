@@ -30,6 +30,11 @@ print("You are " + str(your_age) + ". You can drive now!")
 # Always remember types!
 
 
+'''
+Now let's look at Activities 8 and 9!
+'''
+
+
 # Here's another example when we don't know how many times to repeat
 # Ask the user for their current amount of money 
 money = input()
@@ -55,6 +60,6 @@ else:
 
 
 '''
-Now let's look at Activities 8, 9, and 10!
+Let's do Activities 10, 11, and 12!
 '''
 
