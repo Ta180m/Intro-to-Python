@@ -6,15 +6,15 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 11: Attack of the Pythons III (Conditionals, while loops)
+ACTIVITY 11: Infinite loop (Conditionals, while loops)
 
-An army of Pythons has taken over your city! You can't just hide in your bunker all day, so now you are going to fight the Pythons. Every second, you can kill 5 Pythons. However, every time you kill 5 Pythons, if there are any remaining Pythons, they will reproduce and the number of Pythons will increase by 3. Find out how many seconds it takes for you to defeat all of the Pythons if you start out with:
-
-1 Python
-2 Pythons
-10 Pythons
-100 Pythons
-1000 Pythons
+Bob wrote the following code for Activity 8. What happens when the following code runs? How can we fix it?
 '''
 
+num_rabbits = 2
+years = 0
+while num_rabbits > 0:
+	num_rabbits = 2 * num_rabbits
+	years = years + 1
+print(years)
 

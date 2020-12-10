@@ -6,9 +6,8 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 9: Password 2.0 (Conditionals, while loops)
+ACTIVITY 9: Exponential growth (Conditionals, while loops)
 
-Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right.
+Billiam has started a rabbit farm. A rabbit population starts out with 2 rabbits. Each year, the population size doubles. Find the number of years before the population reaches 1000 using a while loop!
 '''
-
 

@@ -6,9 +6,15 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 12: Attack of the Pythons IV (Conditions, for loops, while loops)
+ACTIVITY 12: Attack of the Pythons III (Conditionals, while loops)
 
-You are so tired from fighting Pythons, and they have now reproduced so much that you have no chance of reproducing. So, you do the logical thing: run. Every second, you can run 2 meters. However, the Pythons are faster and can run (slither?) 4 meters in one second. Fortunately, you have a head start of 30 seconds. Your bunker is 100 meters away. Find out if you can reach your bunker before the Pythons catch up!
+An army of Pythons has taken over your city! You can't just hide in your bunker all day, so now you are going to fight the Pythons. Every second, you can kill 5 Pythons. However, every time you kill 5 Pythons, if there are any remaining Pythons, they will reproduce and the number of Pythons will increase by 3. Find out how many seconds it takes for you to defeat all of the Pythons if you start out with:
+
+1 Python
+2 Pythons
+10 Pythons
+100 Pythons
+1000 Pythons
 '''
 
 

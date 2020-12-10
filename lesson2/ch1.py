@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-CHALLENGE 1: Password 3.0 (Conditionals, while loops)
+CHALLENGE 1: Attack of the Pythons IV (Conditions, for loops, while loops)
 
-Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right. However, if they get three wrong attempts, tell them that they've been locked out!
+You are so tired from fighting Pythons, and they have now reproduced so much that you have no chance of reproducing. So, you do the logical thing: run. Every second, you can run 2 meters. However, the Pythons are faster and can run (slither?) 4 meters in one second. Fortunately, you have a head start of 30 seconds. Your bunker is 100 meters away. Find out if you can reach your bunker before the Pythons catch up by writing a while loop to simulate your run!
 '''
 
 

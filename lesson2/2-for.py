@@ -46,6 +46,11 @@ for i in range(1, 11):
 # Note that y is NOT included
 
 
+'''
+Let's try Activities 6 and 7!
+'''
+
+
 # Let's say we want to compute 1 * 2 * 3 * 4 * ... * 10
 # Again, we can use a for loop to save time!
 product = 1
@@ -57,6 +62,6 @@ print(product)
 
 
 '''
-Let's look at Activities 5, 6, and 7 now!
+Let's look at Activity 8 now!
 '''
 

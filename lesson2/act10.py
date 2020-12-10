@@ -6,15 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 10: Infinite loop (Conditionals, while loops)
+ACTIVITY 10: Password 2.0 (Conditionals, while loops)
 
-Bob wrote the following code for Activity 8. What happens when the following code runs? How can we fix it?
+Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right.
 '''
 
-num_rabbits = 2
-years = 0
-while num_rabbits > 0:
-	num_rabbits = 2 * num_rabbits
-	years = years + 1
-print(years)
 
