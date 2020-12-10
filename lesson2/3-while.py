@@ -31,7 +31,27 @@ print("You are " + str(your_age) + ". You can drive now!")
 
 
 # Here's another example when we don't know how many times to repeat
+# Ask the user for their current amount of money 
+money = input()
+# Let's say their income each day is 5 dollars
+income = 5
+# Let's find out how long it takes them to save up 100 dollars
+days = 0
+while money < 100
+    if days > 10:
+        # We don't want to wait so long!
+        # We can stop immediately using break
+        break
+    
+    # You don't have enough, so you need another day
+    days = days + 1
+    # Add your daily income to you current money
+    money = money + income
 
+if money >= 100:
+    print("You have to wait " + str(days) + " days to save up 100 dollars")
+else:
+    print("You have to wait more than 10 days. I can't wait that long!")
 
 
 '''
