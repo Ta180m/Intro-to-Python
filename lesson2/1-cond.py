@@ -29,10 +29,14 @@ if temperature < 32:
 # It can either be True or False
 # 	If it is True, it will run the indented code below it
 #   If it is False, it will NOT run the code and skip ahead
+# Remember to include a colon : after the condition!
 
 # VERY IMPORTANT: To indent, press the Tab key
 # Python is really picky about indentation, so ALWAYS USE THE TAB KEY
-# DO NOT TYPE 4 SPACES or Python will yell at you
+# Click the settings gear on the left, and make sure:
+# Indent type is tabs
+# Indent size is 4
+# DO NOT TYPE 4 SPACES to indent or Python will yell at you
 
 
 # We can add an else case that runs when the condition is not true
@@ -80,12 +84,28 @@ cold_outside = temperature < 32
 # In this case, cold_outside is True if the temperature is less than 32
 # and false otherwise
 
-# Let's say the temperature falls
-temperature = 20
-temperature < 32
-temperature > 50
+# Boolean variables are useful when we want to test multiple conditions
+# For example, let's say it is nice outside if the temperature is between 60 and 80
 
-cold_outside = temperature < 32
+# We can first set it to True
+nice_outside = True
+temperature = 50 # Try changing the temperature and see what happens
+
+# If the temperature is too cold, set it to False
+if temperature < 60:
+	nice_outside = False
+
+# If the temperature is too hot, set it to False
+if temperature > 80:
+	nice_outside = False
+
+print("The temperature is " + str(temperature))
+# We can use not to test if a boolean variable or conditional is not true
+if not nice_outside:
+	print("It's not nice outside.")
+else:
+	print("It's nice outside!")
+
 
 
 '''
