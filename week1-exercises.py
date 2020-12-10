@@ -35,18 +35,18 @@ Billiam wants to know how much you know about variables. Can you create 2 variab
 
 
 '''
-EXERCISE 4: Print Me (Printing, variables)
+EXERCISE 3: Print Me (Printing, variables)
 
-Print your name and age using one print statement.
+Sure, you can print your name and age using two print statements. But you know what's cooler? Printing your name and age using only one print statement.
 Make sure you convert your age to a string using str( ), since it is an integer.
 '''
 
 
 
 '''
-EXERCISE 5: String Addition (Printing, variables)
+EXERCISE 4: String Addition (Printing, variables)
 
-Add the two string variables together to make another variable (that also makes a complete message) and print it out.
+Someone sent you a message, but it got split into two variables. Add the two string variables together to make another variable that makes the complete message and print it out.
 '''
 
 first_part = "hello, my name "
@@ -54,9 +54,9 @@ second_part = "is Bill Nye"
 
 
 '''
-EXERCISE 6: Multiplication Overload! (Printing, variables)
+EXERCISE 5: Multiplication Overload! (Printing, variables)
 
-Multiply the 5 integer variables together, then print the output!
+Too much multiplication! Multiply the 5 integer variables together, then print the output!
 '''
 
 var1 = 42
@@ -69,6 +69,8 @@ var5 = 13
 '''
 EXERCISE 6: Fix the Code! (Printing, variables)
 
+One of your group members wrote the following code, but it doesn't work for some reason. Can you find out why?
+
 var1 = -61
 var2 = "97"
 var3 = 17
@@ -76,14 +78,14 @@ var4 = "-25"
 
 print(var1 + var2 + var3 + var4)
 
-print the result as one long string (answer should = -619717-25)
-print the result from actually adding (answer should = 28)
+Can you print the result as one long string? (answer should be "-619717-25")
+Can you print the result from actually doing integer addition? (answer should be 28)
 '''
 
 
 
 '''
-EXERCISE 3: Question Question (Printing, input)
+EXERCISE 7: Question Question (Printing, input)
 
 This is a question about asking a question. Ask the user how old they are and get their input using input(). Then print a response: your own age.
 '''
@@ -101,7 +103,7 @@ Billiam can find the sum of two numbers, but he can't do the quick maths needed 
 '''
 EXERCISE 9: Conversational (Printing, variables, input)
 
-Have a conversation using input() and print()
+Have a nice conversation using input() and print()
 Ex:
 Ask for Name
 Respond, then ask for favorite subject

@@ -31,6 +31,8 @@ FOR STUDENTS:
 '''
 DATA TYPES
 
+Every variable has a TYPE. The type of a variable tells you what kind of value it's storing.
+
 We've seen a few types so far:
  
  - Integers: whole numbers
