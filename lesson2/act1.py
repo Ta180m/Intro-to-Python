@@ -8,7 +8,7 @@ INTRODUCTION TO
                                       
 ACTIVITY 1: It's Hot Outside! (Conditionals)
 
-Add another case for when the temperature is above 80 degrees.
+Billiam lives in the Sahara desert. Add another case for when the temperature is above 80 degrees.
 '''
 
 

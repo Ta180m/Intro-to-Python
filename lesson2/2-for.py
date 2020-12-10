@@ -6,7 +6,7 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-REPETITION: For Loops
+FOR LOOPS
 
 The world is full of repetition: you sleep and wake up every day, scientists repeat experiments many times to confirm their results, and history repeats itself (Read https://en.wikipedia.org/wiki/Historic_recurrence#Similarities if you don't believe me)
 
@@ -46,10 +46,17 @@ for i in range(1, 11):
 # Note that y is NOT included
 
 
+# Let's say we want to compute 1 * 2 * 3 * 4 * ... * 10
+# Again, we can use a for loop to save time!
+product = 1
+for i in range(2, 11): # i loops from 2, 3, 4, ... 10
+    # Each time, multiply the existing product by the next i
+	product = product * i
+
+print(product)
+
+
 '''
 Let's look at Activities 5, 6, and 7 now!
 '''
-
-
-
 

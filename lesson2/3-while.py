@@ -6,7 +6,7 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-REPETITION: While Loops
+WHILE LOOPS
 
 Sometimes we don't know how many times we want to repeat something
 Maybe we just want to repeat until a certain condition is satisfied
@@ -28,6 +28,10 @@ print("You are " + str(your_age) + ". You can drive now!")
 # What type is your_age < 16?
 # Why do we have to do str(your_age) when printing?
 # Always remember types!
+
+
+# Here's another example when we don't know how many times to repeat
+
 
 
 '''

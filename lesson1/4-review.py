@@ -45,3 +45,8 @@ print("Your grade is " + your_grade)
 print("Next year you will be in grade " + str(int(your_grade) + 1))
 
 
+'''
+Activites 13, 14 and 15 are review Activities.
+If you think you've mastered this lesson's content, you can also try Challenges 1 and 2.
+'''
+

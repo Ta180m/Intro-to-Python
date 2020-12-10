@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 5: Spammer (Repetition)
+ACTIVITY 5: Spammer (For loops)
 
-Print "Python is awesome!!!" 100 times!
+Billiam wants to become a spammer. He needs you to help him print "Python is awesome!!!" 100 times!
 '''
 
 

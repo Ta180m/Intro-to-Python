@@ -7,12 +7,11 @@ INTRODUCTION TO
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
 REVIEW
+
+This lesson we learned two important building blocks for making more sophisticated programs
+CONDITIONALS: if / elif / else
+REPETITION: for loops / while loops
 '''
-
-
-# This lesson we learned two important building blocks for making more sophisticated programs
-# CONDITIONALS: if / elif / else
-# REPETITION: for loops / while loops
 
 
 # We use if / elif (else if) / else so the computer can make decisions
@@ -42,11 +41,8 @@ while i * i < 100:
 # And while loops when we aren't sure how many times we need to repeat
 
 
-
-
-
-
-
-
-
+'''
+Activities 11 and 12 are review.
+You can also try Challenges 1 and 2 if you want the extra challenge!
+'''
 

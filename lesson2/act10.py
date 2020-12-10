@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 10: Infinite loop (Conditionals, repetition)
+ACTIVITY 10: Infinite loop (Conditionals, while loops)
 
-What happens when the following code runs? How can we fix it?
+Bob wrote the following code for Activity 8. What happens when the following code runs? How can we fix it?
 '''
 
 num_rabbits = 2

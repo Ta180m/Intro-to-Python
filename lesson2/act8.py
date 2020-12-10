@@ -6,8 +6,8 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 8: Exponential growth (Conditionals, repetition)
+ACTIVITY 8: Exponential growth (Conditionals, while loops)
 
-A rabbit population starts out with 2 rabbits. Each year, the population size doubles. Find the number of years before the population reaches 1000 using a while loop!
+Billiam has started a rabbit farm. A rabbit population starts out with 2 rabbits. Each year, the population size doubles. Find the number of years before the population reaches 1000 using a while loop!
 '''
 
