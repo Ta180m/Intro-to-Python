@@ -6,3 +6,15 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
+ACTIVITY 10: Infinite loop (Conditionals, repetition)
+
+What happens when the following code runs? How can we fix it?
+'''
+
+num_rabbits = 2
+years = 0
+while num_rabbits > 0:
+	num_rabbits = 2 * num_rabbits
+	years = years + 1
+print(years)
+

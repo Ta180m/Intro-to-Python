@@ -27,8 +27,51 @@ if temperature < 32:
 
 # Here, temperature < 32 is a condition
 # It can either be True or False
-#   If it is True, it will run the indented code below it
+# 	If it is True, it will run the indented code below it
 #   If it is False, it will NOT run the code and skip ahead
+
+# VERY IMPORTANT: To indent, press the Tab key
+# Python is really picky about indentation, so ALWAYS USE THE TAB KEY
+# DO NOT TYPE 4 SPACES or Python will yell at you
+
+
+# We can add an else case that runs when the condition is not true
+if temperature < 32:
+	# Runs when temperature is less than 32
+	print("It's really cold outside, you should wear a: ")
+else
+	# Otherwise, when temperature is NOT less than 32
+	# So temperature is greater of equal to 32
+	# Run this code
+	print("It's probably not that bad, you should wear a: ")
+
+
+# We can use elif (else if) to add more cases
+# Each case below must be indented using the tab key
+if temperature < 32:
+	# Runs when temperature less than 32
+	print("really cold")
+elif temperature <= 60: # <= means less than or equal to
+	# Runs when temperature is NOT less than 32
+	# So temperature is greater or equal to 32
+	# And temperature is less than or equal to 60
+	print("kind of cold")
+else:
+	# Runs otherwise, so temperature greater than 60
+	print("not cold")
+
+
+'''
+Let's look at Activities 1, 2, and 3!
+'''
+
+# Type in the console:
+temperature = 60
+temperature < 32
+temperature > 50
+
+# Conditions are always True or False
+# We can assign the value of a condition to a variable
 
 cold_outside = temperature < 32
 # cold_outside is a BOOLEAN variable
@@ -37,57 +80,15 @@ cold_outside = temperature < 32
 # In this case, cold_outside is True if the temperature is less than 32
 # and false otherwise
 
-# Let's say the temperature rises
-temperature = 50
-if temperature >= 32:
-	# now the temperature is greater or equal to 32, so it is no longer cold outside
-	cold_outside = False
+# Let's say the temperature falls
+temperature = 20
+temperature < 32
+temperature > 50
 
-# We can also add an else statement
-# If cold_outside is True, it runs the code under if
-# If cold_outside is False, it runs the code under else
-if cold_outside:
-	# It's freezing outside!
-	print("It's freezing outside, you should wear a: ")
-else:
-	# It's not that bad
-	print("It's not that bad, you should wear a: ")
-
+cold_outside = temperature < 32
 
 
 '''
-ACTIVITY 1: It's hot outside!
-
-Add another case for when the temperature is above 80 degrees.
+Let's look at Activity 4 now!
 '''
-
-'''
-temperature = 90
-
-if temperature < 32:
-	# It's freezing outside!
-	print("It's freezing! You should wear a: ")
-# Add a case when the temperature is greater than 80
-
-'''
-
-
-'''
-ACTIVITY 2: Your age 2.0
-
-ASK the user for their age, then tell them what stage of life (baby, kid, teenager, adult, etc) they are in right now.
-
-Hint: Use input() and print()
-'''
-
-
-
-'''
-ACTIVITY 3: Password
-
-Ask the user to enter a password. If has a length less than 8 characters, tell them their password is insecure! Otherwise, tell them that they chose a good password.
-
-Hint: use len(string_here) to get the length of a string
-'''
-
 

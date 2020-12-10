@@ -10,11 +10,12 @@ REVIEW
 '''
 
 
-'''
-# Today, we learned two important building blocks for making more sophisticated programs: CONDITIONALS and REPETITION
+# This lesson we learned two important building blocks for making more sophisticated programs
+# CONDITIONALS: if / elif / else
+# REPETITION: for loops / while loops
 
 
-# We use if/elif/else so the computer can make decisions
+# We use if / elif (else if) / else so the computer can make decisions
 
 language = "python"
 if language == "python":
@@ -39,24 +40,13 @@ while i * i < 100:
 
 # We typically use for loops when we know the number of repetitions in advance
 # And while loops when we aren't sure how many times we need to repeat
-'''
 
 
 
-'''
-CHALLENGE 1: Password 3.0
-
-Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right. However, if they get three wrong attempts, tell them that they've been locked out!
-'''
 
 
 
-'''
-CHALLENGE 2: Inverse sum
 
-Ask the user for a number S, and find the smallest n, so that 1+2+3+...+n is greater or equal to S.
 
-Can you do it with a while loop? A for loop? With some math?
-'''
 
 

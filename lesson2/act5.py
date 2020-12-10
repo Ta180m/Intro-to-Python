@@ -6,3 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
+ACTIVITY 5: Spammer (Repetition)
+
+Print "Python is awesome!!!" 100 times!
+'''
+
+
