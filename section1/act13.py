@@ -13,6 +13,8 @@ Billiam created two variables, my_name and my_age. Sure, you can print my_name a
 But you know what's cooler? Printing my_name and my_age using only one print statement. Make sure you convert my_age to a string using str( ), since it is an integer.
 '''
 
+
 my_name = "Billiam"
 my_age = 13
+
 

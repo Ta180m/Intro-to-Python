@@ -14,10 +14,12 @@ Can you make the code mash together all the variables and print one long string?
 Can you make the code actually add the variables together and print the result? (answer should be 28)
 '''
 
+
 var1 = -61
 var2 = "97"
 var3 = 17
 var4 = "-25"
 
 print(var1 + var2 + var3 + var4)
+
 

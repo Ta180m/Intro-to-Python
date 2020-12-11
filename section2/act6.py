@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 6: Spammer (For loops)
+ACTIVITY 6: I Love Conditionals (Conditionals)
 
-Billiam wants to become a spammer. He needs you to help him print "Python is awesome!!!" 100 times!
+
 '''
 
 

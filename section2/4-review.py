@@ -42,7 +42,7 @@ while i * i < 100:
 
 
 '''
-Activities 13, 14, and 15 are review.
+Activities 16, 17, and 18 are review.
 
 You can also try Challenges 1 and 2 if you want the extra challenge!
 '''

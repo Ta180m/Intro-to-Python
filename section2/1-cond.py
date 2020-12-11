@@ -132,6 +132,6 @@ else:
 
 
 '''
-Let's look at Activities 4 and 5 now!
+Let's look at Activities 4, 5, and 6 now!
 '''
 

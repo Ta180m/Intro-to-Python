@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 10: Password 2.0 (Conditionals, while loops)
+ACTIVITY 10: I Love For Loops! (Conditionals, for loops)
 
-Let's say the user's password is "ilovepython". Ask them to enter their password until they get it right.
+
 '''
 
 

@@ -6,11 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 7: Reversed! (For loops)
+ACTIVITY 7: Spammer (For loops)
 
-Bob is stuck on this activity, so can you help him? Print the numbers from 1 to 10 in reverse order!
-
-Hint: Instead of print(i), what else could we do?
+Billiam wants to become a spammer. He needs you to help him print "Python is awesome!!!" 100 times!
 '''
 
 

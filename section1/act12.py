@@ -11,7 +11,9 @@ ACTIVITY 12: What's wrong with this code? (Printing, variables)
 Figure out what's wrong here!
 '''
 
+
 ans = 5
 # Print 2 + 2 = 5
 print("2 + 2 = " + ans)
+
 

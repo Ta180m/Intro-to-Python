@@ -47,7 +47,7 @@ for i in range(1, 11):
 
 
 '''
-Let's try Activities 6 and 7!
+Let's try Activities 7 and 8!
 '''
 
 
@@ -62,6 +62,6 @@ print(product)
 
 
 '''
-Let's look at Activity 8 now!
+Let's look at Activities 9 and 10 now!
 '''
 

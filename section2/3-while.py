@@ -31,7 +31,7 @@ print("You are " + str(your_age) + ". You can drive now!")
 
 
 '''
-Now let's look at Activities 9 and 10!
+Now let's look at Activities 11 and 12!
 '''
 
 
@@ -64,6 +64,6 @@ else:
 
 
 '''
-Let's do Activities 11 and 12!
+Let's do Activities 13, 14, and 15!
 '''
 
