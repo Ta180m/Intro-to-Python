@@ -7,8 +7,6 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
 ## For everyone:
 
- - Make sure you edit the `.replit` file to point to whichever file you want to run. For example, change `week1.py` to `week3.py` if you want to run the Week 3 code.
-
  - Click on the settings gear on the left, and make sure your indent type is set to "tabs" and your indent size is "4". This will prevent Python from complaining about your indentation!
 
 
@@ -29,3 +27,5 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
  - Do not edit week1.py, even to fix mistakes. It'll mess things up when you try to pull the latest version on your group Repl.
 
+ - Run `for i in ./**; do echo wc -l i; done` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 162 lines!
+ 
