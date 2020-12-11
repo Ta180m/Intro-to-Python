@@ -27,5 +27,5 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
  - Do not edit week1.py, even to fix mistakes. It'll mess things up when you try to pull the latest version on your group Repl.
 
- - Run `for i in ./**; do echo wc -l i; done` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 162 lines!
+ - Run `for i in */*; do wc -l $i; done | sort -h -k 1` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 156 lines!
  
