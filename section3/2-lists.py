@@ -151,6 +151,6 @@ for word in word_list:
 
 
 '''
-Let's look at Activity 9!
+Let's look at Activities 9 and 10!
 '''
 

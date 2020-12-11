@@ -8,7 +8,25 @@ INTRODUCTION TO
                                       
 ACTIVITY 15: I Love Functions! (Functions)
 
-Billiam really loves functions! Now he can write a function to print out even more complicated spam
+Billiam really loves functions! He wants to write a function that takes in his list and Bob's list, then returns a NEW longer list with Bob's items added to the end of Billiam's list. Make sure you don't modify the original lists that they pass into the function!
 '''
+
+
+def merge_lists(Billiam_list, Bob_list):
+    # Create a NEW longer list here
+
+
+
+Billiam_list = [2, 3.14, True, [1, 4]]
+Bob_list = ["Hi", "my", "name", "is", "Bob"]
+
+print("Billiam's list: " + Billiam_list)
+print("Bob's list: " + Bob_list)
+
+new_merged_list = merge_lists(Billiam_list, Bob_list)
+
+print("New merged list: " + new_merged_list)
+print("Billiam's list: " + Billiam_list)
+print("Bob's list: " + Bob_list)
 
 
