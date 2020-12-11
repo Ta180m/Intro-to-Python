@@ -6,29 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 11: Find the difference!
+ACTIVITY 10: Revenge of the Spammer (Functions)
 
-They look similar, but why do they produce different output?
+Make a function that prints "I love Python!" and call it 100 times!
 '''
 
-# 1)
-count = 0
-
-def addToCount():
-	count = count + 1
-	print("count is now = " + count)
-
-for i in range(5):
-	addToCount()
-
-# 2)
-count = 0
-
-def addToCount():
-	global count
-	count = count + 1
-	print("count is now = " + count)
-
-for i in range(5):
-	addToCount()
 

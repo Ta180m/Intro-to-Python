@@ -46,6 +46,12 @@ Let's look at Activities 3 and 4!
 '''
 
 # What can we do with lists?
+# Group leaders: make sure you are doing examples in the console!
+# You can type python in the console to start up an interactive Python session.
+# You know you are in a PYTHON console when it shows the >>>
+# Instead of the orange thing
+# You can then type in code and Python will run it as you go
+
 
 # Let's say we have this shopping list:
 shopping_list = ["evaporated milk", "avocados", "pineapples"]
@@ -91,6 +97,12 @@ Now let's do Activities 5 and 6!
 '''
 
 
+# Let's say we have this shopping list:
+shopping_list = ["evaporated milk", "avocados", "pineapples"]
+
+print(shopping_list)
+
+
 # We can also add an element to the end using .append()
 shopping_list.append("pomegranate")
 print(shopping_list)
@@ -106,11 +118,12 @@ print(shopping_list)
 
 
 '''
-Let's take a look at activities 5, 6, and 7!
+Let's take a look at Activities 7 and 8!
 '''
 
 
-# For loops and lists
+# Lists are extremely useful when paired with for loops!
+
 
 # Consider a typical for loop:
 
@@ -118,14 +131,15 @@ Let's take a look at activities 5, 6, and 7!
 for i in range(0, 10):
 	print(i)
 
-# What if we want to do something with each element in a list?
+
+# What if we want to go through each element in a list and do something?
 # This is called ITERATING through the list
 
 shopping_list = ["evaporated milk", "avocados", "pineapples"]
 
 # It's actually quite easy
 for item in shopping_list:
-	# Do something interesting
+	# Do something with the item
 	print(item)
 
 
@@ -143,6 +157,6 @@ for word in word_list:
 
 
 '''
-Let's look at Activity 8!
+Let's look at Activity 9!
 '''
 

@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 7: Reversed 2
+ACTIVITY 7: One at a time! (Lists)
 
-Create a list containing the first 10 positive integers in reverse order. Then print it out.
-
-Can you do it with .append()? What about with .insert()?
+Ask the user for their name. Add it to a list. Add the user for their age. Add it to the list. Ask the user for their favorite animal. Add it to the list. Now print everything out!
 '''
+
+
