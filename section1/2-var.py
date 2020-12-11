@@ -51,6 +51,9 @@ age_of_Billiam = age_of_Bob * 2
 # 3) We are assigning 10 to the variable age_of_Billiam
 # Thus, age_of_Billiam now has a value of 10
 
+# Let's check that it has type of integer
+type(age_Billiam)
+
 
 # It's Bob's birthday today!
 # He is now 6 years old
@@ -59,8 +62,9 @@ age_of_Billiam = age_of_Bob * 2
 age_of_Bob = 6
 
 
+
 '''
-Let's do Activity 3 and 4 now!
+Let's do Activity 3 now!
 '''
 
 
@@ -108,6 +112,6 @@ print(your_name)
 
 
 '''
-Now let's work on Activity 5 and 6!
+Now let's work on Activities 4, 5, and 6!
 '''
 

@@ -43,6 +43,7 @@ print("Hello, world!")
 # To print text, it MUST BE IN QUOTES
 print("Python is fun!")
 print("I love Python!")
+print("My name is Billiam")
 
 
 '''
@@ -68,7 +69,8 @@ print("2 + 2 = ")
 print(2 + 2)
 
 # Python will evaluate complicated math expressions
-print(9+10*(7*5-3))
+print(1729 - 42 - 13)
+print(9 + 10 * (7 * 5 - 3))
 
 # Prints a blank line
 print()
