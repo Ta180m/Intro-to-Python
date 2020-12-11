@@ -9,6 +9,7 @@ INTRODUCTION TO
 REVIEW
 
 Let's go over what we learned in this lesson!
+We learned printing, variables, and reading input.
 '''
 
 

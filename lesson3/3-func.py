@@ -35,6 +35,8 @@ def hello():
 	print("Hello")
 	print("World")
 
+# Make sure you have a : colon after the parentheses!
+
 # Now every time we use the function, Python will do
 # print("Hello")
 # print("World")

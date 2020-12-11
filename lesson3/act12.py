@@ -11,7 +11,8 @@ ACTIVITY 12: Find the difference!
 Billiam and Bob wrote the following codes. They look similar, but why do they produce different output?
 '''
 
-# 1)
+
+# Billiam's code
 count = 0
 
 def addToCount():
@@ -21,7 +22,8 @@ def addToCount():
 for i in range(5):
 	addToCount()
 
-# 2)
+
+# Bob's code
 count = 0
 
 def addToCount():
