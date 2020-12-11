@@ -6,18 +6,13 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 13: Fix the Code! (Printing, variables)
+ACTIVITY 13: Print Me (Printing, variables)
 
-One of your group members wrote the code below, but it doesn't work for some reason. Can you find out why?
+Billiam created two variables, my_name and my_age. Sure, you can print my_name and my_age using two separate print statements.
 
-Can you make the code mash together all the variables and print one long string? (answer should be "-619717-25")
-Can you make the code actually add the variables together and print the result? (answer should be 28)
+But you know what's cooler? Printing my_name and my_age using only one print statement. Make sure you convert my_age to a string using str( ), since it is an integer.
 '''
 
-var1 = -61
-var2 = "97"
-var3 = 17
-var4 = "-25"
-
-print(var1 + var2 + var3 + var4)
+my_name = "Billiam"
+my_age = 13
 

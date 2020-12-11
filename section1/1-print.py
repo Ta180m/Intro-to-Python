@@ -83,6 +83,6 @@ print()
 
 
 '''
-Now let's look at Activity 2
+Now let's look at Activities 2 and 3!
 '''
 

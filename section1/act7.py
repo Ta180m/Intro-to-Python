@@ -6,9 +6,12 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 7: Question Question (Printing, input)
+ACTIVITY 7: What is wrong with this code?
 
-This is a question about asking a question. Ask the user how old they are and get their input using input(). Then print a response: your own age.
+Figure out what is wrong in the code below!
 '''
+
+
+name = "Bob" + 1
 
 

@@ -6,12 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 10: What's wrong with this code? (Printing, variables)
+ACTIVITY 10: Triple Sum (Printing, variables, input)
 
-Figure out what's wrong here!
+Billiam can find the sum of two numbers, but he can't do the quick maths needed to find the sum of three numbers. Ask the user for three integers, one at a time, then print their sum.
 '''
 
-ans = 5
-# Print 2 + 2 = 5
-print("2 + 2 = " + ans)
 

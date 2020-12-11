@@ -64,7 +64,7 @@ age_of_Bob = 6
 
 
 '''
-Let's do Activity 3 now!
+Let's do Activity 4 now!
 '''
 
 
@@ -112,6 +112,6 @@ print(your_name)
 
 
 '''
-Now let's work on Activities 4, 5, and 6!
+Now let's work on Activities 5, 6, 7, and 8!
 '''
 

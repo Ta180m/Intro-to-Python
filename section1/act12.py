@@ -6,10 +6,12 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 12: Conversion (Printing, variables, input)
+ACTIVITY 12: What's wrong with this code? (Printing, variables)
 
-Ask for the user's age, then ask them what age they think they will finish school
-Print the number of years of school left for them!
+Figure out what's wrong here!
 '''
 
+ans = 5
+# Print 2 + 2 = 5
+print("2 + 2 = " + ans)
 

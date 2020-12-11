@@ -6,11 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 9: String Addition (Printing, variables)
+ACTIVITY 9: Question Question (Printing, input)
 
-Someone sent you a message, but it got split into two variables. Add the two string variables together to make another variable that makes the complete message and print it out.
+This is a question about asking a question. Ask the user how old they are and get their input using input(). Then print a response: your own age.
 '''
 
-first_part = "Hello, my name "
-second_part = "is Bill Nye"
 

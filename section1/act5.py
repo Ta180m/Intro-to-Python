@@ -6,14 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 5: Multiplication Overload! (Printing, variables)
+ACTIVITY 5: Variable Me (Variables)
 
-Too much multiplication! Multiply the 5 integer variables together, then print the output!
+Billiam wants to know how much you know about variables. Can you create 2 variables, my_name and my_age, and assign your name and age to those variables?
 '''
 
-int1 = 42
-int2 = 1729
-int3 = -1
-int4 = 998242353
-int5 = 13
 

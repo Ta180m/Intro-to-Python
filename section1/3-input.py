@@ -34,7 +34,7 @@ print(your_age)
 
 '''
 Try it out yourself!
-Let's do Activity 7!
+Let's do Activity 9!
 '''
 
 
@@ -60,7 +60,7 @@ print(int(your_age) + 1)
 
 
 '''
-Let's do Activity 8!
+Let's do Activity 10!
 '''
 
 
@@ -83,6 +83,6 @@ print(name)
 
 
 '''
-Let's do Activity 9, 10, 11, and 12 now!
+Let's do Activity 11, 12, 13, 14, and 15 now!
 '''
 

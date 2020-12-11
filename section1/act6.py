@@ -6,11 +6,15 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 6: What is wrong with this code?
+ACTIVITY 6: Multiplication Overload! (Printing, variables)
 
-Figure out what is wrong in the code below!
+Too much multiplication! Multiply the 5 integer variables together, then print the output!
 '''
 
-name = "Bob" + 1
 
+int1 = 42
+int2 = 1729
+int3 = -1
+int4 = 998242353
+int5 = 13
 

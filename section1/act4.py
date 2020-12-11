@@ -6,9 +6,10 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 4: Variable Me (Variables)
+ACTIVITY 4: Experimenting with variables (Printing, variables)
 
-Billiam wants to know how much you know about variables. Can you create 2 variables, my_name and my_age, and assign your name and age to those variables?
+Make a variable named my_grade and give it the value of your grade.
+Then, print its value.
 '''
 
 

@@ -6,13 +6,11 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 11: Print Me (Printing, variables)
+ACTIVITY 11: String Addition (Printing, variables)
 
-Billiam created two variables, my_name and my_age. Sure, you can print my_name and my_age using two separate print statements.
-
-But you know what's cooler? Printing my_name and my_age using only one print statement. Make sure you convert my_age to a string using str( ), since it is an integer.
+Someone sent you a message, but it got split into two variables. Add the two string variables together to make another variable that makes the complete message and print it out.
 '''
 
-my_name = "Billiam"
-my_age = 13
+first_part = "Hello, my name "
+second_part = "is Bill Nye"
 

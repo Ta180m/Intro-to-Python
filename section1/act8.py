@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 8: Triple Sum (Printing, variables, input)
+ACTIVITY 8: I Love Variables! (Printing, variables)
 
-Billiam can find the sum of two numbers, but he can't do the quick maths needed to find the sum of three numbers. Ask the user for three integers, one at a time, then print their sum.
+Billiam and Bob are trying to figure out who knows variables better. First, you need to create a variable called grade_of_Billiam and assign it a value of 6. Then, create a variable called grade_of_Bob and assign it a value two more than grade_of_Billiam. What are the types of the two variables you just created? Now print out the sum of their grades!
 '''
 
 

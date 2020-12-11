@@ -6,22 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 14: Conversational (Printing, variables, input)
+ACTIVITY 14: Stuck in School (Printing, variables, input)
 
-Have a nice conversation using input() and print()
-Ex:
-Ask for Name
-Respond, then ask for favorite subject
-Respond, ask for ...
-etc.
-
-
-print("What's your name?")
-response1 = input()
-print("Hi " + response1 + ", my name is Console")
-print("What is your favorite subject?")
-response2 = input()
-etc.
+Ask for the user's age, then ask them what age they think they will finish school. Print the number of years of school left for them!
 '''
 
 
