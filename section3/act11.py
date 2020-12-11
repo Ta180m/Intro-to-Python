@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 11: Add 3
+ACTIVITY 11: Revenge of the Spammer (Functions)
 
-Billiam knows how to write a function that takes two numbers and returns their sum. Can you create a function that takes in 3 numbers and returns their sum?
+Make a function that prints "I love Python!" and call it 100 times!
 '''
 
 

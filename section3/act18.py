@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 15: I Love Functions! (Functions)
+ACTIVITY 18: Attack of the Pythons VI
 
-Billiam really loves functions! Now he can write a function to print out even more complicated spam
+
 '''
 
 

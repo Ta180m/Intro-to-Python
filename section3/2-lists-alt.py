@@ -7,9 +7,7 @@ INTRODUCTION TO
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
 LISTS
-
-Lists are one of the most versatile and important types in Python.
-Let's learn about them!
+Let's look at another very useful type: Lists
 '''
 
 
@@ -43,9 +41,8 @@ type(my_list)
 
 
 '''
-Let's look at Activity 4 now!
+Let's look at Activities 3 and 4!
 '''
-
 
 # What can we do with lists?
 # Group leaders: make sure you are doing examples in the console!
@@ -126,31 +123,38 @@ Let's take a look at Activities 7 and 8!
 
 # Lists are extremely useful when paired with for loops!
 
-# What if we want to do something with each element in a list?
+
+# Consider a typical for loop:
+
+# prints the numbers 0, 1, 2, ... 9
+for i in range(0, 10):
+	print(i)
+
+
+# What if we want to go through each element in a list and do something?
 # This is called ITERATING through the list
 
 shopping_list = ["evaporated milk", "avocados", "pineapples"]
 
 # It's actually quite easy
 for item in shopping_list:
-	# Do something interesting
-	print("Buy " + item)
+	# Do something with the item
+	print(item)
 
 
 # On a related note, what if we want to split a sentence string into a list of individual words?
 # For example: "hello my name is Bob" -> ["hello", "my", "name", "is", "Bob"]
+
 # We can use the function .split()
-sentence = "Hello my name is Billiam"
-word_list = sentence.split(" ")
-print(word_list)
+sentence = "hello my name is Bob"
+word_list = sentence.split()
 
 # Now we can iterate through the word_list!
 for word in word_list:
 	# Do something interesting
-	print(word + " says hi")
+	print(word)
 
 
 '''
 Let's look at Activity 9!
 '''
-

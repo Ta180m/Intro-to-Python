@@ -6,6 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 14: Attack of the Pythons VI
+ACTIVITY 16: Double All! (Lists, functions)
 
+Can you write a function that takes in a list and doubles all elements in the list and returns the list?
 '''
+
+

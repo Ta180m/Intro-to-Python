@@ -78,7 +78,7 @@ analyze_sentence("I really really really love Python")
 
 
 '''
-Activites 13, 14, and 15 are review.
+Activites 16, 17, and 18 are review.
 
 If you think you know the content well, try Challenges 1 and 2!
 '''

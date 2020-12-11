@@ -15,12 +15,12 @@ FUNCTIONS
 print("Hello")
 print("World")
 
-print("abc");
+print("abc")
 
 print("Hello")
 print("World")
 
-print("123");
+print("123")
 
 print("Hello")
 print("World")
@@ -57,7 +57,7 @@ hello()
 
 
 '''
-Let's do Activity 10 now!
+Let's do Activity 11 now!
 '''
 
 
@@ -98,6 +98,6 @@ print(result)
 
 
 '''
-Let's do Activities 11 - 14 now!
+Let's do Activities 12, 13, 14, and 15 now!
 '''
 

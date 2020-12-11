@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 10: Revenge of the Spammer (Functions)
+ACTIVITY 10: I Love Lists! (Lists)
 
-Make a function that prints "I love Python!" and call it 100 times!
+
 '''
 
 

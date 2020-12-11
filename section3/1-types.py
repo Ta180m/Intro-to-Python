@@ -74,6 +74,6 @@ float4 = -1729.42
 
 
 '''
-Let's work on Activity 2!
+Let's work on Activities 2 and 3!
 '''
 

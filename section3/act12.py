@@ -6,31 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 12: Find the difference!
+ACTIVITY 12: Add 3 (Functions)
 
-Billiam and Bob wrote the following codes. They look similar, but why do they produce different output?
+Billiam knows how to write a function that takes two numbers and returns their sum. Can you create a function that takes in 3 numbers and returns their sum?
 '''
 
-
-# Billiam's code
-count = 0
-
-def addToCount():
-	count = count + 1
-	print("count is now = " + str(count))
-
-for i in range(5):
-	addToCount()
-
-
-# Bob's code
-count = 0
-
-def addToCount():
-	global count
-	count = count + 1
-	print("count is now = " + str(count))
-
-for i in range(5):
-	addToCount()
 
