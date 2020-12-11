@@ -25,7 +25,11 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
 ## For group leaders:
 
- - Do not edit week1.py, even to fix mistakes. It'll mess things up when you try to pull the latest version on your group Repl.
+ - Add plenty of examples. Repetitive examples are OK and encouraged!
+
+ - Try to alternate between example - activity. Don't do too many consecutive examples!
+
+ - Use the console when you think it's more convenient
 
  - Run `for i in */*; do wc -l $i; done | sort -h -k 1` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 156 lines!
  
