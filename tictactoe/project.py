@@ -6,8 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 14: Double All!
+TIC-TAC-TOE PROJECT
 
-Can you write a function that takes in a list and doubles all elements in the list?
-
+This is where your future Tic-Tac-Toe project will live!
 '''
+
+

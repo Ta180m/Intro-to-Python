@@ -15,12 +15,12 @@ FUNCTIONS
 print("Hello")
 print("World")
 
-print("abc")
+print("abc");
 
 print("Hello")
 print("World")
 
-print("123")
+print("123");
 
 print("Hello")
 print("World")
@@ -31,15 +31,23 @@ print("Hello")
 print("World")
 # Three times, we can use a function:
 
+# How do we create a function?
+# It will be in the form:
+# def function_name():
 def hello():
 	print("Hello")
 	print("World")
 
+# What does the function mean?
+# "def" tells us that the line is a function
+# "hello" is the name of a function. 
 # Make sure you have a : colon after the parentheses!
 
 # Now every time we use the function, Python will do
 # print("Hello")
 # print("World")
+
+# We use the function by calling it.
 
 hello()
 print("abc")
@@ -54,14 +62,6 @@ Let's do Activity 10 now!
 
 
 # Some functions take in inputs and give back an output
-# Let's say we want to print 'Hello NAME' for multiple names
-print("Hello Alice")
-print("Hello Bob")
-print("Hello Bob")
-
-# Think of functions as a mysterious machine that eats "input" and spits out "output".
-
-# If you give the function an input, it will give you an output.
 
 # Scenario: We want to add 2 numbers and print their sum. 
 # Instructors, type this into a new file.
@@ -71,9 +71,7 @@ def addNumbers(number1, number2):
 	return number3
 
 # What does the function mean?
-# "def" tells us that the line is a function
-# "addNumbers" is the name of a function. 
-# "number1" and "number2" are the names of the input
+# "number1" and "number2" are the names of the inputs
 # "return" will be explained later
 
 
@@ -100,6 +98,6 @@ print(result)
 
 
 '''
-Let's do Activities 11 and 12 now!
+Let's do Activities 11 - 14 now!
 '''
 

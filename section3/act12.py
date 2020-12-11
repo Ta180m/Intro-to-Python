@@ -17,7 +17,7 @@ count = 0
 
 def addToCount():
 	count = count + 1
-	print("count is now = " + count)
+	print("count is now = " + str(count))
 
 for i in range(5):
 	addToCount()
@@ -29,7 +29,7 @@ count = 0
 def addToCount():
 	global count
 	count = count + 1
-	print("count is now = " + count)
+	print("count is now = " + str(count))
 
 for i in range(5):
 	addToCount()

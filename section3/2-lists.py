@@ -7,101 +7,54 @@ INTRODUCTION TO
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
 LISTS
-
-Let's look at another very useful type: Lists
 '''
 
-
-# Lists are lists.
-# They store several items as a list.
+'''
+# Lists store several items in a single list.
 # Lists are ORDERED
 # The items can be of any data type, even other lists.
 
 # Here is an example of a list:
-my_list = [1, 7, 2, 9]
+
+my_list = [1, "hello", True, 3.14, []]
 
 # The square brackets [] tell you that this is a list.
-# It contains the four integers, 1, 7, 2, 9
-# We set the value of the variable my_list equal to this list
-# Let's check out its type in the console!
-type(my_list)
-
-
-# Here is another list
-my_list = [1, "hello", True, 3.14, [2, 3]]
-
 # It contains the elements:
-1 		# an integer
-"hello"	# a string
-True	# a boolean
-3.14	# a float (decimal)
-[2, 3]	# another list
-
-# Let's check out its type in the console!
-type(my_list)
-
-
-'''
-Let's look at Activities 3 and 4!
+# 1, an integer
+# "hello", a string
+# True, a boolean
+# 3.14, a float (decimal)
+# [], an empty list
+# Additionally, we set the value of the variable my_list equal to this list
 '''
 
-# What can we do with lists?
-# Group leaders: make sure you are doing examples in the console!
-# You can type python in the console to start up an interactive Python session.
-# You know you are in a PYTHON console when it shows the >>>
-# Instead of the orange thing
-# You can then type in code and Python will run it as you go
+'''
+ACTIVITY 2: Create your own!
+
+Create your own list! It should be in the format [name, age, favorite animal]
+
+After you create the list, print it!
+'''
 
 
-# Let's say we have this shopping list:
-shopping_list = ["evaporated milk", "avocados", "pineapples"]
-
+# Let's say we have the following list:
+shopping_list = ["milk", "avocados", "pineapples"]
 print(shopping_list)
-
-
-# We can get the item at a certain position of the list!
 
 # To get the first element of the list, we use: shopping_list[0]
 # [0] is not a mistake!
 # In Python, the first element corresponds to INDEX 0
 print("First element (index 0) is " + shopping_list[0])
 
-# The index is basically the position of the item, minus 1
-# We access items on the list based on their INDEX, not their position
-# This may seem weird, but there are reasons for doing this.
-
-# Here's a helpful chart
-# Index:		0				1			2
-# 		["evaporated milk", "avocados", "pineapples"]
-
-
-# To get the second element: shopping_list[1]
+# Or the second element: shopping_list[1]
 # Second element corresponds to index 1
 print("Second element (index 1) is " + shopping_list[1])
 
-# To get the third element: shopping_list[2]
-# Third element corresponds to index 2
-print("Third element (index 2) is " + shopping_list[2])
-
-
-# We can also modify items
-# Change the item with index 1, "avocados", to "fruit roll-ups"
+# We can then modify the element
+# Change "avocados" to "fruit roll-ups"
 shopping_list[1] = "fruit roll-ups"
-
 print(shopping_list)
-print("First element (index 1) is " + shopping_list[1])
-
-
-'''
-Now let's do Activities 5 and 6!
-'''
-
-
-# Let's say we have this shopping list:
-shopping_list = ["evaporated milk", "avocados", "pineapples"]
-
-print(shopping_list)
-
+#print("First element (index 1) is " + shopping_list[1])
 
 # We can also add an element to the end using .append()
 shopping_list.append("pomegranate")
@@ -116,47 +69,57 @@ print(shopping_list)
 shopping_list.remove("pineapples")
 print(shopping_list)
 
+'''
+ACTIVITY 4: Last!
+
+Print the last element of shopping_list.
+
+How can you find the last element of any list?
+Hint: len(my_list) gives the length of a list
+'''
+
+
+
 
 '''
-Let's take a look at Activities 7 and 8!
+ACTIVITY 5: Reversed 2
+
+Create a list containing the first 10 positive integers in reverse order using a FOR LOOP. [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Then print it out.
+
+Can you do it with .append()? What about with .insert()?
 '''
+reverse_list=[]
 
 
-# Lists are extremely useful when paired with for loops!
 
 
-# Consider a typical for loop:
-
-# prints the numbers 0, 1, 2, ... 9
-for i in range(0, 10):
-	print(i)
-
-
-# What if we want to go through each element in a list and do something?
+# What if we want to do something with each element in a list?
 # This is called ITERATING through the list
 
-shopping_list = ["evaporated milk", "avocados", "pineapples"]
+shopping_list = ["milk", "avocados", "pineapples"]
 
 # It's actually quite easy
 for item in shopping_list:
-	# Do something with the item
-	print(item)
+	# Do something interesting
+	print("Buy",item)
+
+# Iterating through a list is similar to a classic for loop
+#for i in range(5):
+#for i in [0, 1, 2, 3, 4]:
+
+
+
 
 
 # On a related note, what if we want to split a sentence string into a list of individual words?
 # For example: "hello my name is Bob" -> ["hello", "my", "name", "is", "Bob"]
-
 # We can use the function .split()
-sentence = "hello my name is Bob"
-word_list = sentence.split()
+sentence = "hello abc abab cat"
+word_list = sentence.split(" ")
+print(word_list)
 
 # Now we can iterate through the word_list!
 for word in word_list:
 	# Do something interesting
-	print(word)
-
-
-'''
-Let's look at Activity 9!
-'''
-
+	print(word+"hi")

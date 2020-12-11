@@ -36,8 +36,8 @@ bool2 = False
 # It's important to remember that you CANNOT mix and match types when doing stuff like addition.
 
 # For example, you can't do:
-42 + "hello"	# Wrong!
-2 + "2"			# Wrong!
+#42 + "hello"	# Wrong!
+#2 + "2"			# Wrong!
 
 # Recall that 2 and "2" are COMPLETELY DIFFERENT
 # 2 is an integer while "2" is a string
