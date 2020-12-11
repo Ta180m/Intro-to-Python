@@ -42,9 +42,13 @@ money = input()
 income = 5
 # Let's find out how long it takes them to save up 100 dollars
 days = 0
+# If you have to wait more than 10 days, you give up
+give_up = False
 while money < 100
     if days > 10:
         # We don't want to wait so long!
+		# Let's give up!
+		give_up = True
         # We can stop immediately using break
         break
     
@@ -53,7 +57,7 @@ while money < 100
     # Add your daily income to you current money
     money = money + income
 
-if money >= 100:
+if not give_up: # You didn't give up
     print("You have to wait " + str(days) + " days to save up 100 dollars")
 else:
     print("You have to wait more than 10 days. I can't wait that long!")

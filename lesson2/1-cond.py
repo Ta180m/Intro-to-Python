@@ -20,6 +20,8 @@ How do computers make decisions? Let's look at some examples.
 # current temperature is 20 degrees
 temperature = 20
 
+print("Temperature is " + str(temperature))
+
 if temperature < 32:
 	# it's really cold outside, what should I wear?
 	# this code runs when the temperature is less than 32
@@ -40,10 +42,11 @@ if temperature < 32:
 
 
 # We can add an else case that runs when the condition is not true
+print("Temperature is " + str(temperature))
 if temperature < 32:
 	# Runs when temperature is less than 32
 	print("It's really cold outside, you should wear a: ")
-else
+else:
 	# Otherwise, when temperature is NOT less than 32
 	# So temperature is greater of equal to 32
 	# Run this code
@@ -52,17 +55,28 @@ else
 
 # We can use elif (else if) to add more cases
 # Each case below must be indented using the tab key
+print("Temperature is " + str(temperature))
 if temperature < 32:
 	# Runs when temperature less than 32
 	print("really cold")
-elif temperature <= 60: # <= means less than or equal to
-	# Runs when temperature is NOT less than 32
-	# So temperature is greater or equal to 32
-	# And temperature is less than or equal to 60
-	print("kind of cold")
+elif 60 <= temperature <= 80: # we can test if a variable is in a certain range
+	# <= means less than or equal to
+	# Runs when temperature is between 60 and 80, inclusive
+	print("pretty nice")
 else:
-	# Runs otherwise, so temperature greater than 60
-	print("not cold")
+	# Runs otherwise
+	print("no comment")
+
+
+temperature = 60
+
+# We can also check if two things are equal
+if temperature == 70: # Use == double equals to check equality
+	print("The temperature is perfect outside!")
+
+# WRONG! This is an error!
+# if temperature = 70: # Sets the value of temperature to 70
+#	print("The temperature is perfect outside! Or is it?")
 
 
 '''
@@ -106,6 +120,15 @@ if not nice_outside:
 else:
 	print("It's nice outside!")
 
+
+# We can use and to test if two conditions are both True
+age = 18
+has_license = False
+if age >= 16 and has_license == True:
+    print("You are old enough and have a driver's license.")
+    print("You can drive!")
+else:
+    print("You can't drive yet!")
 
 
 '''
