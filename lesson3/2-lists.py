@@ -18,52 +18,78 @@ Let's look at another very useful type: Lists
 # The items can be of any data type, even other lists.
 
 # Here is an example of a list:
-
-my_list = [1, "hello", True, 3.14, []]
+my_list = [1, 7, 2, 9]
 
 # The square brackets [] tell you that this is a list.
-# It contains the elements:
-# 1, an integer
-# "hello", a string
-# True, a boolean
-# 3.14, a float (decimal)
-# [], an empty list
-# Additionally, we set the value of the variable my_list equal to this list
+# It contains the four integers, 1, 7, 2, 9
+# We set the value of the variable my_list equal to this list
+# Let's check out its type in the console!
+type(my_list)
 
+
+# Here is another list
+my_list = [1, "hello", True, 3.14, [2, 3]]
+
+# It contains the elements:
+1 		# an integer
+"hello"	# a string
+True	# a boolean
+3.14	# a float (decimal)
+[2, 3]	# another list
+
+# Let's check out its type in the console!
+type(my_list)
 
 
 '''
 Let's look at Activities 3 and 4!
 '''
 
-
-# REWRITE!!
-
-
 # What can we do with lists?
-# This next section is very imporant!
-# Pay close attention!
+
+# Let's say we have this shopping list:
+shopping_list = ["evaporated milk", "avocados", "pineapples"]
+
+print(shopping_list)
+
 
 # We can get the item at a certain position of the list!
-
-# Let's say we have the following list:
-shopping_list = ["evaporated milk", "avocados", "pineapples"]
-print(shopping_list)
 
 # To get the first element of the list, we use: shopping_list[0]
 # [0] is not a mistake!
 # In Python, the first element corresponds to INDEX 0
 print("First element (index 0) is " + shopping_list[0])
 
-# Or the second element: shopping_list[1]
-# Second element corresponds to index 1
-print("First element (index 1) is " + shopping_list[1])
+# The index is basically the position of the item, minus 1
+# We access items on the list based on their INDEX, not their position
+# This may seem weird, but there are reasons for doing this.
 
-# We can then modify the element
-# Change "avocados" to "fruit roll-ups"
+# Here's a helpful chart
+# Index:		0				1			2
+# 		["evaporated milk", "avocados", "pineapples"]
+
+
+# To get the second element: shopping_list[1]
+# Second element corresponds to index 1
+print("Second element (index 1) is " + shopping_list[1])
+
+# To get the third element: shopping_list[2]
+# Third element corresponds to index 2
+print("Third element (index 2) is " + shopping_list[2])
+
+
+# We can also modify items
+# Change the item with index 1, "avocados", to "fruit roll-ups"
 shopping_list[1] = "fruit roll-ups"
+
 print(shopping_list)
 print("First element (index 1) is " + shopping_list[1])
+
+
+'''
+Now let's do Activities 5 and 6!
+'''
+
 
 # We can also add an element to the end using .append()
 shopping_list.append("pomegranate")

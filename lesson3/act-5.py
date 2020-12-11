@@ -6,12 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 5: First! (Lists)
+ACTIVITY 5: One at a time! (Lists)
 
-Billiam and Bob both made shopping lists. Print out the FIRST element of each of the lists!
+Ask the user for their name. Add it to a list. Add the user for their age. Add it to the list. Ask the user for their favorite animal. Add it to the list. Now print everything out!
 '''
 
-
-billiam_list = ["bread", "biscuits", "bottled_water"]
-bob_list = ["burgers", "beef", "bacon", "bagels"]
 

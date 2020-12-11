@@ -6,11 +6,16 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 6: Last!
+ACTIVITY 6: Last! (Lists)
 
-Print the last element of the list you created in ACTIVITY 5.
+Billiam and Bob both made shopping lists. Print out the LAST element of each of the lists!
 
-How can you find the last element of any list?
+How can we print out the last element of any list?
+
+Hint: Use len(insert_name_of_your_list_here) to get the length of a list.
 '''
 
+
+billiam_list = ["bread", "biscuits", "bottled_water"]
+bob_list = ["burgers", "beef", "bacon", "bagels"]
 

@@ -9,41 +9,54 @@ INTRODUCTION TO
 FUNCTIONS
 '''
 
-# Functions combine multiple instructions into one line
-# Scenario: We want to print 'Hello' and 'World' between prints
+# Let's say we are going to be printing "Hello" and "World" a lot
 
 print("Hello")
 print("World")
+
 print("abc")
+
 print("Hello")
 print("World")
+
 print("123")
+
 print("Hello")
 print("World")
+
 
 # Instead of writing 
 print("Hello")
 print("World")
-# three times, you could use a function
+# Three times, we can use a function:
 
 def hello():
 	print("Hello")
 	print("World")
 
+# Now every time we use the function, Python will do
+# print("Hello")
+# print("World")
+
 hello()
 print("abc")
 hello()
 print("123")
 hello()
 
+
+'''
+Let's do Activity 9 now!
+'''
+
+
 # Some functions take in inputs and give back an output
-# Scenario: We want to print 'Hello NAME' for multiple names
+# Let's say we want to print 'Hello NAME' for multiple names
 print("Hello Alice")
 print("Hello Bob")
 print("Hello Bob")
 
 # Think of functions as a mysterious machine that eats "input" and spits out "output".
-# (Also, it has "invisible" inputs and outputs. Invisible inputs = pre-existing variables, invisible outputs = the changes made to those variables)
 
 # If you give the function an input, it will give you an output.
 
@@ -55,10 +68,10 @@ def addNumbers(number1, number2):
 	return number3
 
 # What does the function mean?
-"def" tells us that the line is a function
-"addNumbers" is the name of a function. 
-"number1" and "number2" are the names of the input
-"return" : explain later
+# "def" tells us that the line is a function
+# "addNumbers" is the name of a function. 
+# "number1" and "number2" are the names of the input
+# "return" : explain later
 
 
 # But how do we use this function/return?

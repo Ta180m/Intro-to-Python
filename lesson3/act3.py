@@ -9,8 +9,8 @@ INTRODUCTION TO
 ACTIVITY 3: What's wrong? (Types, lists)
 
 What's wrong with my_list?
-
-my_list = [2 + 2, "red", true]
 '''
 
+
+my_list = [2 + 2, "red", true]
 
