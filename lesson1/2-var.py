@@ -42,14 +42,14 @@ type(age_of_Bob)
 # That means age, AGE, and Age are three different variables
 
 
-# Let's create a new variable named age_of_Sally. Sally is twice as old as Bob.
+# Let's create a new variable named age_of_Billiam. Billiam is twice as old as Bob.
 # When you use a variable, Python substitutes the value of the variable in
-age_of_Sally = age_of_Bob * 2
+age_of_Billiam = age_of_Bob * 2
 # We are doing 3 things above:
-# 1) We are creating a new variable named age_of_Sally
+# 1) We are creating a new variable named age_of_Billiam
 # 2) We are calculating age_of_Bob * 2 (which is =10)
-# 3) We are assigning 10 to the variable age_of_Sally
-# Thus, age_of_Sally now has a value of 10
+# 3) We are assigning 10 to the variable age_of_Billiam
+# Thus, age_of_Billiam now has a value of 10
 
 
 # It's Bob's birthday today!
@@ -65,7 +65,7 @@ Let's do Activity 3 and 4 now!
 
 
 # There are many differnet types of variables
-# age_of_Bob and age_of_Sally are INTEGER type variables since they are storing whole numbers
+# age_of_Bob and age_of_Billiam are INTEGER type variables since they are storing whole numbers
 # Let's look at another type:
 
 # Recall we can print text with quotes

@@ -9,6 +9,7 @@ INTRODUCTION TO
 FUNCTIONS
 '''
 
+
 # Let's say we are going to be printing "Hello" and "World" a lot
 
 print("Hello")
@@ -46,7 +47,7 @@ hello()
 
 
 '''
-Let's do Activity 9 now!
+Let's do Activity 10 now!
 '''
 
 
@@ -71,30 +72,32 @@ def addNumbers(number1, number2):
 # "def" tells us that the line is a function
 # "addNumbers" is the name of a function. 
 # "number1" and "number2" are the names of the input
-# "return" : explain later
+# "return" will be explained later
 
 
 # But how do we use this function/return?
-You can...
-1) Set variable = to function
-	result = addNumbers(5,3)
-	***The value that is "returned" will be set to "result"
-2) Call function 
-	addNumbers(5,3)
-	-Will run the function
-	-But you aren't changing the value of a variable (thus no return statement)
+# You can...
+# 1) Set variable = to function
+#	result = addNumbers(5,3)
+#	***The value that is "returned" will be set to "result"
+# 2) Call function 
+#	addNumbers(5,3)
+#	-Will run the function
+#	-But you aren't changing the value of a variable
+
 
 # Let's say we "call" the function (aka use the function) with:
-first_number=5
-second_number=3
+first_number = 5
+second_number = 3
 result = addNumbers(first_number, second_number)
+print(result)
 
 # How are "number1" and "first_number" different?
-
-***number1 and number2 are the NAMES of the input. They become variables to use inside the function, but don't affect the value of first_number or second_number***
+# number1 and number2 are the NAMES of the input.
+# They become variables to use inside the function, but don't affect the value of first_number or second_number!
 
 
 '''
-Let's do Activities 10, 11, and 12 now!
+Let's do Activities 11 and 12 now!
 '''
 
