@@ -11,4 +11,6 @@ ACTIVITY 7: Spammer (For loops)
 Billiam wants to become a spammer. He needs you to help him print "Python is awesome!!!" 100 times!
 '''
 
+for i in range(1,101):
+  print("Python is awesome!!!")
 

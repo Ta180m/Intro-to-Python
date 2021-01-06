@@ -13,4 +13,5 @@ Bob is stuck on this activity, so can you help him? Print the numbers from 1 to 
 Hint: Instead of print(i), what else could we do?
 '''
 
-
+for i in range(1,11):
+  print(11-i)

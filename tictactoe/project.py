@@ -12,3 +12,21 @@ This is where your future Tic-Tac-Toe project will live!
 '''
 
 
+board = [[0, 0, 0],
+		 [0, 0, 0],
+		 [0, 0, 0]]
+
+
+def print_board():
+	# Print the board
+  print()
+"""
+ | | 
+-----
+ | | 
+-----
+ | | 
+"""
+
+def is_winning():
+  return False

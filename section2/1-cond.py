@@ -23,9 +23,10 @@ temperature = 20
 print("Temperature is " + str(temperature))
 
 if temperature < 32:
-	# it's really cold outside, what should I wear?
-	# this code runs when the temperature is less than 32
 	print("It's really cold, you should wear a: ")
+
+  # it's really cold outside, what should I wear?
+	# this code runs when the temperature is less than 32
 
 # Here, temperature < 32 is a condition
 # It can either be True or False
@@ -43,6 +44,8 @@ if temperature < 32:
 
 # We can add an else case that runs when the condition is not true
 print("Temperature is " + str(temperature))
+
+#temperature = 50
 if temperature < 32:
 	# Runs when temperature is less than 32
 	print("It's really cold outside, you should wear a: ")
@@ -56,10 +59,12 @@ else:
 # We can use elif (else if) to add more cases
 # Each case below must be indented using the tab key
 print("Temperature is " + str(temperature))
+
+#temperature = 65
 if temperature < 32:
 	# Runs when temperature less than 32
 	print("really cold")
-elif 60 <= temperature <= 80: # we can test if a variable is in a certain range
+elif (60 <= temperature <= 80): # we can test if a variable is in a certain range
 	# <= means less than or equal to
 	# Runs when temperature is between 60 and 80, inclusive
 	print("pretty nice")
@@ -134,4 +139,6 @@ else:
 '''
 Let's look at Activities 4, 5, and 6 now!
 '''
+
+
 

@@ -32,6 +32,10 @@ print(10)
 # That's a lot of work!
 
 # We can use a FOR loop
+#creates variable i
+#range(1,11) = repeat 11-1 times
+#so, repeats print(i) 10 times
+# AND for each time it goes through, it increase i by 1
 for i in range(1, 11):
 	print(i)
 
@@ -57,6 +61,12 @@ product = 1
 for i in range(2, 11): # i loops from 2, 3, 4, ... 10
     # Each time, multiply the existing product by the next i
 	product = product * i
+
+
+  #first run:  1*2 = 2
+  #second run: 2*3 = 6
+  #third run:  6*4 = 24
+  #fourth run: 24*5 = 120
 
 print(product)
 

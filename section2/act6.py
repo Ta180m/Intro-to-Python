@@ -13,4 +13,12 @@ Bob is writing a complicated program to determine what to wear based on the temp
 Help Bob write a program to determine what he should wear!
 '''
 
+#if temperature==75, wear a t-shirt
+#elif 0 <= temperature <= 32, gigantic coat
+#elif (temperature < 40 || temperature > 90), no go outside
+#elif (temperature > 75) wear t-shirt and shorts
+#elif (temperature <= 50) wear jacket
+#else wear long-sleeved shirt
+
+
 
