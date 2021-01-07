@@ -26,9 +26,9 @@ board = [[' ', ' ', ' '],
 		 [' ', ' ', ' ']]
 
 
-
 def print_board():
 	# Print the board
+	# Make sure you print each row on a separate line!
 
 
 def check_draw():
@@ -44,14 +44,13 @@ def check_win():
 	# return 0 otherwise
 
 
-def add_piece(row, column, player):
-	# Add a new piece at the coordinates row, column
-	# Add 'X' if it's player 1
-	# And 'O' if it's player 2
-
-
-
 player_turn = 1 # the player whose current turn it is
+
+
+def add_piece(row, column):
+	# Add a new piece at the coordinates row, column
+	# Add 'X' if it's player 1's turn
+	# And 'O' if it's player 2's turn
 
 
 # Main game loop
@@ -73,6 +72,10 @@ while True: # loop forever
 	# ask for input
 	row = input("Which row do you want to place your piece?")
     column = input("Which column do you want to place you piece?")
+
+
+	# Add a piece at coordinates row, column
+	add_piece(row, column)
 	
 
 	if_win = check_win(board)
