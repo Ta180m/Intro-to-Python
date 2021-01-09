@@ -29,12 +29,14 @@ board = [[' ', ' ', ' '],
 def print_board():
 	# Print the board
 	# Make sure you print each row on a separate line!
+	pass
 
 
 def check_draw():
 	# check if there is a draw
 	# return True if there is a draw
 	# and False otherwise
+	pass
 
 
 def check_win():
@@ -42,6 +44,7 @@ def check_win():
 	# return 1 if player 1 won
 	# return 2 if player 2 won
 	# return 0 otherwise
+	pass
 
 
 player_turn = 1 # the player whose current turn it is
@@ -51,19 +54,20 @@ def add_piece(row, column):
 	# Add a new piece at the coordinates row, column
 	# Add 'X' if it's player 1's turn
 	# And 'O' if it's player 2's turn
+	pass
 
 
 # Main game loop
 while True: # loop forever
-	if_draw = check_draw(board)
-    if if_draw:
-        # It's a draw!
+	if_draw = check_draw()
+	if if_draw:
+		# It's a draw!
 		# Print something out!
 
-        break
+		break
 
 
-	if player_turn = 1:
+	if player_turn == 1:
 		print("It's player 1's turn")
 	else:
 		print("It's player 2's turn")
@@ -71,24 +75,24 @@ while True: # loop forever
 
 	# ask for input
 	row = input("Which row do you want to place your piece?")
-    column = input("Which column do you want to place you piece?")
+	column = input("Which column do you want to place you piece?")
 
 
 	# Add a piece at coordinates row, column
 	add_piece(row, column)
 	
 
-	if_win = check_win(board)
-    if if_win != 0:
+	if_win = check_win()
+	if if_win != 0:
 		# Someone won!
 		# Print something out!
 
-        break
+		break
 
 
 	# Switch the player_turn
-    if player_turn == 1:
-        player_turn = 2
-    elif player_turn == 2:
-        player_turn = 1
+	if player_turn == 1:
+		player_turn = 2
+	elif player_turn == 2:
+		player_turn = 1
 
