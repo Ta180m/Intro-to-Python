@@ -9,6 +9,8 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
  - Click on the settings gear on the left, and make sure your indent type is set to "tabs" and your indent size is "4". This will prevent Python from complaining about your indentation!
 
+ - Make sure you press TAB when indenting. DO NOT PRESS SPACEBAR FOUR TIMES. If your tab key doesn't work for some reason, tell your group leader!
+
 
 ## For students:
 
