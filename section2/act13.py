@@ -8,7 +8,7 @@ INTRODUCTION TO
                                       
 ACTIVITY 13: Infinite loop (Conditionals, while loops)
 
-Bob wrote the following code for Activity 8. What happens when the following code runs? How can we fix it?
+Bobert wrote the following code for Activity 8. What happens when the following code runs? How can we fix it?
 '''
 
 

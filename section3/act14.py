@@ -8,7 +8,7 @@ INTRODUCTION TO
                                       
 ACTIVITY 14: Find the difference! (Functions)
 
-Billiam and Bob wrote the following codes. They look similar, but why do they produce different output?
+Billiam and Bobert wrote the following codes. They look similar, but why do they produce different output?
 '''
 
 
@@ -23,7 +23,7 @@ for i in range(5):
 	add_to_count()
 
 
-# Bob's code
+# Bobert's code
 count = 0
 
 def add_to_count():

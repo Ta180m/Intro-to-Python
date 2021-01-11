@@ -21,33 +21,33 @@ When you create a variable, you do 2 things
 '''
 
 
-# Let's make a variable named age_of_Bob. This value will represent the age of Bob :).
+# Let's make a variable named age_of_Bobert. This value will represent the age of Bobert :).
 
-age_of_Bob = 5
+age_of_Bobert = 5
 # We're doing 2 things in 1 line
-# 1) We create a variable named age_of_Bob
+# 1) We create a variable named age_of_Bobert
 # 2) We give the variable the value 5.
 
-# ATTRIBUTES of the variable age_of_Bob
-#      The variable NAME is age_of_Bob
+# ATTRIBUTES of the variable age_of_Bobert
+#      The variable NAME is age_of_Bobert
 #      The variable's VALUE is 5
 #      The variable TYPE is Integer
 # The TYPE of the variable is VERY IMPORTANT
 # Always make sure you know the type of your variables
 # If you're not sure, you can get the type like this:
-type(age_of_Bob)
+type(age_of_Bobert)
 
 
 # Variables names are CASE-SENSITIVE
 # That means age, AGE, and Age are three different variables
 
 
-# Let's create a new variable named age_of_Billiam. Billiam is twice as old as Bob.
+# Let's create a new variable named age_of_Billiam. Billiam is twice as old as Bobert.
 # When you use a variable, Python substitutes the value of the variable in
-age_of_Billiam = age_of_Bob * 2
+age_of_Billiam = age_of_Bobert * 2
 # We are doing 3 things above:
 # 1) We are creating a new variable named age_of_Billiam
-# 2) We are calculating age_of_Bob * 2 (which is =10)
+# 2) We are calculating age_of_Bobert * 2 (which is =10)
 # 3) We are assigning 10 to the variable age_of_Billiam
 # Thus, age_of_Billiam now has a value of 10
 
@@ -55,11 +55,11 @@ age_of_Billiam = age_of_Bob * 2
 type(age_Billiam)
 
 
-# It's Bob's birthday today!
+# It's Bobert's birthday today!
 # He is now 6 years old
-# We can give the variable age_of_Bob a new value
+# We can give the variable age_of_Bobert a new value
 # After all, it's just a memory "slot"
-age_of_Bob = 6
+age_of_Bobert = 6
 
 
 
@@ -69,7 +69,7 @@ Let's do Activity 4 now!
 
 
 # There are many differnet types of variables
-# age_of_Bob and age_of_Billiam are INTEGER type variables since they are storing whole numbers
+# age_of_Bobert and age_of_Billiam are INTEGER type variables since they are storing whole numbers
 # Let's look at another type:
 
 # Recall we can print text with quotes

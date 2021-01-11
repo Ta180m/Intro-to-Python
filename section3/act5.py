@@ -8,10 +8,10 @@ INTRODUCTION TO
                                       
 ACTIVITY 5: First! (Lists)
 
-Billiam and Bob both made shopping lists. Print out the FIRST element of each of the lists!
+Billiam and Bobert both made shopping lists. Print out the FIRST element of each of the lists!
 '''
 
 
 billiam_list = ["bread", "biscuits", "bottled_water"]
-bob_list = ["burgers", "beef", "bacon", "bagels"]
+Bobert_list = ["burgers", "beef", "bacon", "bagels"]
 

@@ -8,7 +8,7 @@ INTRODUCTION TO
                                       
 ACTIVITY 16: Python is the Best! (Conditionals)
 
-Bob thinks Python is the best programming language. Do you agree? Ask the user to type in a programming language, then print "The best" if they typed in "Python", "OK" if they typed in "Java" or "Javascript", "Awful" if they typed in "C++" or "Perl", and "Meh" otherwise.
+Bobert thinks Python is the best programming language. Do you agree? Ask the user to type in a programming language, then print "The best" if they typed in "Python", "OK" if they typed in "Java" or "Javascript", "Awful" if they typed in "C++" or "Perl", and "Meh" otherwise.
 '''
 
 

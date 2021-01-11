@@ -138,7 +138,7 @@ for item in shopping_list:
 
 
 # On a related note, what if we want to split a sentence string into a list of individual words?
-# For example: "hello my name is Bob" -> ["hello", "my", "name", "is", "Bob"]
+# For example: "hello my name is Bobert" -> ["hello", "my", "name", "is", "Bobert"]
 # We can use the function .split()
 sentence = "Hello my name is Billiam"
 word_list = sentence.split(" ")
