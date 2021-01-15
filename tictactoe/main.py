@@ -80,6 +80,23 @@ while True: # loop forever
 
 	# Add a piece at coordinates row, column
 	add_piece(row, column)
+
+	piece_added = False
+	while not piece_added:	
+		# ask for input
+		# we have to convert them to ints because input returns a string!
+		row = int(input("Which row do you want to place your piece?"))
+		column = int(input("Which column do you want to place your piece? "))
+
+		if board[row][column] != ' ':
+			# The spot is already used!
+			# Print something out!
+			pass
+		else:
+			# Add a piece at coordinates row, column
+			add_piece(row, column)
+			piece_added = True
+
 	
 
 	if_win = check_win()

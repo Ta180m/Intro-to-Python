@@ -14,4 +14,3 @@ Figure out what is wrong in the code below!
 
 name = "Bob" + 1
 
-
