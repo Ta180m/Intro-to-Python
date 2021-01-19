@@ -73,14 +73,23 @@ while True: # loop forever
 		print("It's player 2's turn")
 
 
-	# ask for input
-	row = input("Which row do you want to place your piece?")
-	column = input("Which column do you want to place you piece?")
+	piece_added = False # boolean to represent if the player has placed a piece yet
+	while not piece_added:	
+		# ask for input
+		# we have to convert them to ints because input returns a string!
+		row = int(input("Which row do you want to place your piece?"))
+		column = int(input("Which column do you want to place your piece? "))
 
+		if board[row][column] != ' ':
+			# The spot is already used!
+			# Print something out!
 
-	# Add a piece at coordinates row, column
-	add_piece(row, column)
-	
+			pass
+		else:
+			# Add a piece at coordinates row, column
+			add_piece(row, column)
+			piece_added = True
+
 
 	if_win = check_win()
 	if if_win != 0:
