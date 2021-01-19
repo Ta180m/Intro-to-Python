@@ -16,6 +16,6 @@ Hint: Use len(insert_name_of_your_list_here) to get the length of a list.
 '''
 
 
-billiam_list = ["bread", "biscuits", "bottled_water"]
+Billiam_list = ["bread", "biscuits", "bottled_water"]
 Bobert_list = ["burgers", "beef", "bacon", "bagels"]
 

@@ -12,6 +12,6 @@ Billiam and Bobert both made shopping lists. Print out the FIRST element of each
 '''
 
 
-billiam_list = ["bread", "biscuits", "bottled_water"]
+Billiam_list = ["bread", "biscuits", "bottled_water"]
 Bobert_list = ["burgers", "beef", "bacon", "bagels"]
 
