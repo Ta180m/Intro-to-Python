@@ -31,5 +31,15 @@ termcolor.cprint('Hello, World!', 'green', 'on_red')
 # One controls the text color
 # The other controls the background color
 
+# Now let's work on Activites 1 and 2!
+
+
+# Another example with random
+import random
+
+
+# itertools
+
 # You can find all libraries at https://pypi.org/
 
+# Add some more about looking up libraries and documentation
