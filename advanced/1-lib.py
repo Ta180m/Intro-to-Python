@@ -38,8 +38,6 @@ termcolor.cprint('Hello, World!', 'green', 'on_red')
 import random
 
 
-# itertools
-
 # You can find all libraries at https://pypi.org/
 
 # Add some more about looking up libraries and documentation
