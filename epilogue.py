@@ -18,6 +18,7 @@ import time
 s = '''
 Congratulations!
 You've completed Intro to Python!
+You've now unlocked a new superpower: programming with Python!
 
 
 What's next?

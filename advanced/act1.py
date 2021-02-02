@@ -6,9 +6,11 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY ?: Insert Name Here (Topics)
+ACTIVITY 1: Red on Green (Libraries)
 
-Activity statement
+Print out one of your hobbies, but with red colored text on a green background!
+
+Look at the example in 1-lib if you're not sure how to do this!
 '''
 
 

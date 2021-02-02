@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY ?: Insert Name Here (Topics)
+ACTIVITY 3: Flip a Coin (Libraries)
 
-Activity statement
+Billiam is writing a function that flips a coin. However, he doesn't know how to make it random. Help him!
 '''
 
 

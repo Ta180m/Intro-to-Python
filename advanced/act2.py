@@ -6,9 +6,11 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY ?: Insert Name Here (Topics)
+ACTIVITY 2: Can You Read? (Libraries)
 
-Activity statement
+Can you print something with BOLD text? Bobert can. What about you?
+
+Check out https://pypi.org/project/termcolor if you aren't sure!
 '''
 
 

@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY ?: Insert Name Here (Topics)
+ACTIVITY 4: Random Color (Libraries)
 
-Activity statement
+Bobert loves some randomness in his life. Print out "Hello world!" with blue, green, or red text, each with 1/3 probability!
 '''
 
 

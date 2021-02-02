@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY ?: Insert Name Here (Topics)
+ACTIVITY 6: I Love Libraries (Libraries)
 
-Activity statement
+What's the weirdest library you can find on PyPI? Be creative!
 '''
 
 

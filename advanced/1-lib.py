@@ -31,13 +31,30 @@ termcolor.cprint('Hello, World!', 'green', 'on_red')
 # One controls the text color
 # The other controls the background color
 
+# You can find this library at https://pypi.org/project/termcolor
+# PyPI is the Python Package Index
+# It contains thousands of libraries packaged for you to use!
+# It also has some useful information on how to use each library.
+
 # Now let's work on Activites 1 and 2!
 
 
-# Another example with random
+# termcolor was made by some random person
+# And published to the PyPI
+# However, our next example, random, is made by the same people behind Python
+# random is part of the Python STANDARD LIBRARY
+# You can find its information at https://docs.python.org/3/library/random.html
+
+# We start off as usual
 import random
 
+print(random.randint(1, 6)) # Roll a dice
 
-# You can find all libraries at https://pypi.org/
+# Let's look at Activities 3 and 4!
 
-# Add some more about looking up libraries and documentation
+
+# All of the standard libraries are at https://docs.python.org/3/library/
+# You can find all other libraries at https://pypi.org/
+
+# Let's do Activities 5 and 6 now!
+

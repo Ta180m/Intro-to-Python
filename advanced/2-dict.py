@@ -11,5 +11,5 @@ DICTIONARIES
 TODO
 '''
 
-
+# Make sure you use activites 7-10
 #SETS
