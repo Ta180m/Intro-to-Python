@@ -6,9 +6,9 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
-ACTIVITY 13: Find Maximum! (Functions)
+CHALLENGE 2: Python Grandmaster
 
-Billiam and Bobert each have a number. They both think their number is larger. Can you write a function that takes in the two numbers and returns the larger one?
+If you are reading this, you're probably a Python grandmaster by now. You've flown through all the basics, and the advanced stuff too! Umm need to think of a good challenge...
 '''
 
 

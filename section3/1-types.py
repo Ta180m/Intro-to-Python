@@ -22,7 +22,7 @@ int4 = 987654321
 
 # STRINGS: text in quotes
 # You can convert variables to strings using str( )
-str1 = "bill nye"
+str1 = "Billiam Wender"
 str2 = "1"
 str3 = "2 + 2 = 5"
 str4 = "" # empty string that contains no text

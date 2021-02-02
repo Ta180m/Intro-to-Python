@@ -72,8 +72,8 @@ def analyze_sentence(sentence): # make sure you have the : colon here!
 
 
 # Now we can use our function!
-analyze_sentence("Hello my name is Bob")
-analyze_sentence("Bob is better than Billiam")
+analyze_sentence("Hello my name is Bobert")
+analyze_sentence("Bobert is better than Billiam")
 analyze_sentence("I really really really love Python")
 
 

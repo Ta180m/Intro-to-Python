@@ -12,6 +12,6 @@ Figure out what is wrong in the code below!
 '''
 
 
-name = "Bob" + 1
+name = "Bobert" + 1
 
 
