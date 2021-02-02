@@ -58,14 +58,16 @@ Special Thanks To:
 # Can you figure out what this does?
 def credits():
 	lines = s.split('\n')
-	n = lines.size()
+	n = len(lines)
 	i = 0
 	while True:
-		os.clear()
+		os.system('clear')
 		for j in range(i, min(n-1, i+16)):
 			print(lines[j])
-		time.sleep(0.1)
+		time.sleep(0.5)
 		i = i+1
 		if i == n: i = 0
 
+
+credits()
 
