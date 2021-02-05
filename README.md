@@ -5,14 +5,14 @@
 Learn the basics of Python by making a fun tic-tac-toe game!
 
 
-## For everyone:
+## For everyone
 
  - Click on the settings gear on the left, and make sure your indent type is set to "tabs" and your indent size is "4". This will prevent Python from complaining about your indentation!
 
  - Make sure you press TAB when indenting. DO NOT PRESS SPACEBAR FOUR TIMES. If your tab key doesn't work for some reason, tell your group leader!
 
 
-## For students:
+## For students
 
  - Make sure you have an Repl.it account!
 
@@ -25,7 +25,7 @@ Learn the basics of Python by making a fun tic-tac-toe game!
  - Watch the group leader's shared screen during the examples, and work on your own copy for the activities!
 
 
-## For group leaders:
+## For group leaders
 
  - Add plenty of examples. Repetitive examples are OK and encouraged!
 
@@ -35,3 +35,10 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
  - Run `for i in */*; do wc -l $i; done | sort -h -k 1` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 156 lines!
  
+
+## Useful links for group leaders
+
+ - The plan: https://docs.google.com/document/d/1nT-JA9hkJkWmAp9FuDlEd1q61aab3DMOioprgXF0e0M/edit?usp=sharing
+
+ - Data: https://docs.google.com/spreadsheets/d/1_9oxVn-_6h0tNTME-m3UxhoDzE4jW03NurIo2buTmlY/edit?usp=sharing
+
