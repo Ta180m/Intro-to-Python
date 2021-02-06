@@ -15,4 +15,5 @@ Someone sent you a message, but it got split into two variables. Add the two str
 first_part = "Hello, my name "
 second_part = "is Bill Nye"
 
-
+one = first_part + second_part
+print(one)

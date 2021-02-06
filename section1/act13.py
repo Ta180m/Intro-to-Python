@@ -17,4 +17,6 @@ But you know what's cooler? Printing my_name and my_age using only one print sta
 my_name = "Billiam"
 my_age = 13
 
+ans = 13
+print(my_name + " " + str(my_age))
 

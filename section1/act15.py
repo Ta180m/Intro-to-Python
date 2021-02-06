@@ -12,3 +12,11 @@ Billiam loves asking the user unusual questions. He wants you to ask the user fo
 '''
 
 
+fav_sushi = input("What is your favorite sushi role?")
+print("My favorite sushi role is the Californian sushi role.")
+
+age = input("What is your age?")
+print("My age is 11 years old")
+
+ans = 11 + int(age)
+print("Together, our ages are " + str(ans))

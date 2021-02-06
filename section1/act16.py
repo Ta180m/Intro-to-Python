@@ -20,6 +20,6 @@ var2 = "97"
 var3 = 17
 var4 = "-25"
 
-print(var1 + var2 + var3 + var4)
+print(var1 + int(var2) + var3 + int(var4))
 
 
