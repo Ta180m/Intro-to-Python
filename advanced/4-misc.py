@@ -23,8 +23,3 @@ print(int("3A", 16))
 
 # file I/O
 
-# Installing Python on your computer
-# This gives you more flexibility for writing and testing Python code
-# Go to https://www.python.org/downloads/
-# And click on download
-# TODO
