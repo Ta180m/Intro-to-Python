@@ -80,6 +80,8 @@ INTRODUCTION TO
  / ____/ / / / / / __  / /_/ / /|  /  
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
+
+Copyleft 🄯 2021 Billiam Wender. All rights reversed.
 '''
 
 
@@ -97,5 +99,7 @@ def credits():
 		if i == n: i = 0
 
 
+# roll the
 credits()
+# Thanks for watching!
 
