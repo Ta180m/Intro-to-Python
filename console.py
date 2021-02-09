@@ -7,6 +7,8 @@ INTRODUCTION TO
 /_/     /_/ /_/ /_/ /_/\____/_/ |_/   
                                       
 THE CONSOLE
+
+A tutorial about the console. You only have to do this if you previously did the legacy Intro to Python v1 version of this course.
 '''
 
 

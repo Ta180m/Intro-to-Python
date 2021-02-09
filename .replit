@@ -1,2 +1,2 @@
 language = "python3"
-run = "bash start.sh"
+run = "./run"

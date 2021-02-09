@@ -1,4 +1,10 @@
-echo "Which section? (C 1 2 3 T A E)"
+#!/bin/bash
+# The Repl.it run button is stupid
+# It can't detect which file is currently open
+# So I set it to run this Bash shell script instead
+# Which asks the user which program to run and runs Python
+
+echo "Which section? (1 2 3 T A C E)"
 read section_number
 
 if [ $section_number == C ]
