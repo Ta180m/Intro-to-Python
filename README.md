@@ -14,31 +14,29 @@ Learn the basics of Python by making a fun tic-tac-toe game!
 
 ## For students
 
- - Make sure you have an Repl.it account!
+ - First, create a Repl.it account.
 
- - Click "Introduction-to-Python" at the top, then click the button "Fork"
+ - Click "Intro to Python v2" at the top, then click the button "Fork" to **create a copy** of this project.
  
- - This will create your own copy of the project.
- 
- - After you have your own copy, click "Share" in the top right and send the link to your group leader.
+ - After you have your own copy, click "Share" in the top right and **send the link** to your group leader.
 
  - Watch the group leader's shared screen during the examples, and work on your own copy for the activities!
 
 
 ## For group leaders
 
- - Add plenty of examples. Repetitive examples are OK and encouraged!
+ - Make sure you have made your **own copy** of this project and are not editing the main Repl.it
 
- - Try to alternate between example - activity. Don't do too many consecutive examples!
+ - Make sure you are giving students plenty of chances to **code and do activities**.
 
- - Use the console when you think it's more convenient
+ - **Go slow** and pay attention to how well the students are understanding by asking **lots of questions**.
 
- - Run `for i in */*; do wc -l $i; done | sort -h -k 1` in Bash to get the line count of every file. Try not to make the files too long like `lesson3/2-lists.py` with a total of 156 lines!
+ - Use the console when you think it's more convenient.
  
 
 ## Useful links for group leaders
 
- - The plan: https://docs.google.com/document/d/1nT-JA9hkJkWmAp9FuDlEd1q61aab3DMOioprgXF0e0M/edit?usp=sharing
+ - [Plan](https://docs.google.com/document/d/1nT-JA9hkJkWmAp9FuDlEd1q61aab3DMOioprgXF0e0M/edit?usp=sharing)
 
- - Data: https://docs.google.com/spreadsheets/d/1_9oxVn-_6h0tNTME-m3UxhoDzE4jW03NurIo2buTmlY/edit?usp=sharing
+ - [Data](https://docs.google.com/spreadsheets/d/1_9oxVn-_6h0tNTME-m3UxhoDzE4jW03NurIo2buTmlY/edit?usp=sharing)
 
